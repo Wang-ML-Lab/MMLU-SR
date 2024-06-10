@@ -10,6 +10,7 @@ We wrapped our results and dataset in a single MMLU-SR zip file. To reproduce ou
 ```bash
 python3 evaluate.py 
 ```
+The output of models' evaluation can be downloaded with this [Google Drive link](https://drive.google.com/file/d/1BKBx4LrkvU9WCnTREc1ENuRITT_xByI_/view?usp=sharing).
 
 ## Huggingface 
 We also provide a Hugging Face Dataset for users who want to use other frameworks like lm-evaluation-harness. 
