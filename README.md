@@ -2,7 +2,7 @@
 
 This is the official repository for the MMLU-SR: NIPS Dataset Track 2024 "Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models".
 
-![MMLU-SR](images/MMLU-SR2.png)
+![MMLU-SR](images/MMLU-SR2.PNG)
 
 ## Dataset and Results
 Our datasets can be found in dataset folder and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR)
