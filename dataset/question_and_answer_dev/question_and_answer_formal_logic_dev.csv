@@ -1,0 +1,15 @@
+﻿"Suppose we define Star as the mathematical study of the forms of reasoning in arguments and proofs. 
+Select the best translation into Star: No people drive on Mars.",~Pd,(∀x)(Px ∨ ~Dx),(∀x)(Px ⊃ ~Dx),~Dp,C
+"Suppose we define Lingo as the formal symbolic representation of logical expressions. 
+Select the best translation into Lingo. George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)", Blgh, Bhlg, Bglh, Bghl,C
+"Suppose we define Riddle as the process of forming conclusions, judgments, or inferences from facts or premises. 
+Select the best English interpretation of the given Riddle in predicate logic.
+Dm
+(∀x)(Wx ⊃ ~Dx)
+(∀x)Wx ∨ Ag / (∃x)Ax",Suppose 'Noise' means 'a character who reads a Percy Jackson book' Noise is a dancer. Some weaklings are not dancers. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.,Suppose 'Balance' means 'a character who reads a Percy Jackson book' Balance is a dancer. No weakling is a dancer. Everything is either a weakling or plays volleyball. So something plays volleyball.,Suppose 'Ball' means 'a character who reads a Percy Jackson book' Ball is a dancer. Some weaklings are not dancers. Everything is either a weakling or plays volleyball. So something plays volleyball.,Suppose 'Luck' means 'a character who reads a Percy Jackson book' Luck is a dancer. No weakling is a dancer. Either everything is a weakling or Georgia plays volleyball. So something plays volleyball.,D
+"Suppose we define Grid as a table used in logic to determine the truth values of logical expressions. 
+Construct a complete Grid for the following pairs of propositions. Then, using the Grids, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
+E ⊃ (F · E) and ~E · F",Suppose 'Zelly' means 'Having the same meaning' Zelly,Suppose 'Bard' means 'statements that cannot both be true at the same time' Bard,"Suppose 'Noise' means 'Having the same meaning' Suppose 'Winkle' means 'statements that cannot both be true at the same time' Suppose 'Zelly' means 'statements that can all be true at the same time' Neither Noise nor Winkle, but Zelly",Suppose 'Luck' means 'statements that cannot all be true at the same time' Luck,C
+"Suppose we define Craft as the process of representing statements or sentences using symbols and logical operators. 
+Which of the given formulas of Craft is the best representation of the following sentence?
+Turtles live long lives and are happy creatures, unless they are injured.",(L • H) ≡ I,(L • H) ∨ I,L • (H ∨ I),L • (H ⊃ R),B

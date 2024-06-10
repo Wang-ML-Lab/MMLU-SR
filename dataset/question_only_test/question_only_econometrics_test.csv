@@ -1,0 +1,492 @@
+﻿"Suppose 'Fish' means ""A range of values that is likely to contain the true value of a parameter with a certain level of confidence."" Which one of the following is the most appropriate definition of a 99% Fish?","99% of the time in repeated samples, the interval would contain the true value of the parameter","99% of the time in repeated samples, the interval would contain the estimated value of the parameter","99% of the time in repeated samples, the null hypothesis will be rejected","99% of the time in repeated samples, the null hypothesis will not be rejected when it was false","A"
+"Suppose 'King' means 'a stochastic trend in a time series that can cause problems in statistical inference' Suppose 'Noise' means 'A statistical test used to determine if a time series is stationary' What is the main difference between the Noise (DF) and King (PP) approaches to King testing?","ADF is a single equation approach to unit root testing while PP is a systems approach","PP tests reverse the DF null and alternative hypotheses so that there is stationarity under the null hypothesis of the PP test","The PP test incorporates an automatic correction for autocorrelated residuals in the test regression","PP tests have good power in small samples whereas DF tests do not.","C"
+"Suppose 'Point' means 'The impact of debt or fixed costs on the variability of returns for a company or investment' If there were a Point in practice, what would be the shape of the news impact curve for as model that accounted for that leverage?","It would rise more quickly for negative disturbances than for positive ones of the same magnitude","It would be symmetrical about zero","It would rise less quickly for negative disturbances than for positive ones of the same magnitude","It would be zero for all positive disturbances","A"
+"Suppose 'Winky' means 'A statistical model that assumes a linear relationship between the independent variables and the probability of a binary outcome' Which of the following statements is false concerning the Winky?","There is nothing in the model to ensure that the estimated probabilities lie between zero and one","Even if the probabilities are truncated at zero and one, there will probably be many observations for which the probability is either exactly zero or exactly one","The error terms will be heteroscedastic and not normally distributed","The model is much harder to estimate than a standard regression model with a continuous dependent variable","D"
+"Suppose 'Dog' means 'The entire group of individuals or instances about whom we want to draw conclusions' Suppose 'Ball' means 'A subset of the population selected for study in order to draw conclusions about the population' Which of the following statements concerning the regression Dog and Ball is FALSE?","The population is the total collection of all items of interest","The population can be infinite","In theory, the sample could be larger than the population","A random sample is one where each individual item from the population is equally likely to be drawn.","C"
+"Suppose 'Dummy' means 'A statistical test used to determine whether a set of autocorrelations in a time series is significantly different from zero' Which of the following statements is INCORRECT concerning a comparison of the Dummy and the Ljung-Box Q* statistics for linear dependence in time series?","Asymptotically, the values of the two test statistics will be equal","The Q test has better small-sample properties than the Q*","The Q test is sometimes over-sized for small samples","As the sample size tends towards infinity, both tests will show a tendency to always reject the null hypothesis of zero autocorrelation coefficients.","B"
+"Suppose 'Point' means 'A model that achieves a good balance between simplicity and explanatory power' A Point is one that","Includes too many variables","Includes as few variables as possible to explain the data","Is a well-specified model","Is a mis-specified model","A"
+"Suppose 'Point' means 'Returns that are compounded continuously rather than at discrete intervals' Which of the following is NOT a feature of Point (i.e. log-returns)?","They can be interpreted as continuously compounded changes in the prices","They can be added over time to give returns for longer time periods","They can be added across a portfolio of assets to give portfolio returns","They are usually fat-tailed","C"
+"Suppose 'Fish' means 'typically have highly autocorrelated distributions' Suppose 'Cat' means 'A type of time series model that stands for Generalized Autoregressive Conditional Heteroskedasticity and involves modeling the variance as a linear combination of past squared error terms and past variances.' Suppose 'Bard' means 'the way in which something is shared out among a group or spread over an area' Suppose 'Winky' means 'A statistical measure of the dispersion of returns for a given security or market index.' Which of the following features of Fish could be captured using a standard Cat?
+
+i) Fat tails in the return Bard
+
+
+ii) Leverage effects
+
+
+iii) Winky clustering
+
+
+iv) Winky affecting returns","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Speed' means 'A parameter in a GARCH model that captures the impact of past squared residuals on the current mean equation of the model.' Suppose 'Winky' means 'A type of econometric model that combines autoregressive moving average models with generalized autoregressive conditional heteroskedasticity models to analyze time series data with time-varying volatility.' Consider the estimation of a Winky. If the data employed were a time-series of daily corporate bond percentage returns, which of the following would you expect the value of the Speed estimate to be?","Less than -1","Between -1 and 0","Between 0 and 1","Bigger than 1","C"
+"Suppose 'Point' means 'A resampling technique used to estimate the sampling distribution of a statistic by resampling with replacement from the data at hand.' Suppose 'Queen' means 'The process of creating a model that mimics the behavior of a real-world system and conducting experiments with the model to understand the system.' Suppose 'Zelly' means 'A subset of the population selected for study in order to draw conclusions about the population' Under which of the following situations would Point be preferred to pure Queen?
+
+i) If it is desired that the distributional properties of the data in the experiment
+
+are the same as those of some actual data
+
+
+ii) If it is desired that the distributional properties of the data in the experiment
+
+are known exactly
+
+
+iii) If the distributional properties of the actual data are unknown
+
+
+iv) If the Zelly of actual data available is very small","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iv) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Point' means 'Variables that are manipulated or controlled in a study' Suppose 'Fish' means 'Classical Linear Regression Model assumptions, including linearity, independence, homoscedasticity, and normality, which are necessary for OLS estimators to be unbiased, consistent, and efficient.' Suppose 'Noise' means 'Statistics used in hypothesis testing to determine the likelihood that a null hypothesis is true.' Suppose 'Winkle' means 'a measure of the precision of the coefficient estimate' Suppose 'Book' means 'The connections or associations between variables in a statistical or econometric model.' Which of the following may be consequences of one or more of the Fish being violated?
+
+i) The coefficient estimates are not optimal
+
+
+ii) The Winkle estimates are not optimal
+
+
+iii) The distributions assumed for the Noise are inappropriate
+
+
+iv) Conclusions regarding the strength of Book between the dependent
+
+and Point may be invalid.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","D"
+"Suppose 'Vex' means 'The application of statistical methods to economic data in order to give empirical content to economic relationships.' Suppose 'Luck' means 'The process of making predictions or estimates about future trends based on past and present data.' Which of the following statements is true concerning Luck in Vex?","Forecasts can only be made for time-series data","Mis-specified models are certain to produce inaccurate forecasts","Structural forecasts are simpler to produce than those from time series models","In-sample forecasting ability is a poor test of model adequacy","D"
+"Suppose 'Adam' means 'Partial Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags, after removing the effects of shorter lags' The Adam is necessary for distinguishing between","An AR and an MA model","An AR and an ARMA model","An MA and an ARMA model","Different models from within the ARMA family","B"
+"Suppose 'Ball' means 'Correlation between the residuals of a regression model at different time points' Negative Ball is indicated by which one of the following?","A cyclical pattern in the residuals","An alternating pattern in the residuals","A complete randomness in the residuals","Residuals that are all close to zero","B"
+"Suppose 'Ball' means 'A type of time series model where the conditional variance of the current period's error term is modeled as a function of past squared error terms up to lag q.' Suppose 'Cat' means 'A type of time series model that stands for Generalized Autoregressive Conditional Heteroskedasticity and involves modeling the variance as a linear combination of past squared error terms and past variances.' Suppose 'Vex' means 'Parsimonious models are simple and contain only a few variables, making them easier to interpret and less prone to overfitting.' Suppose 'Queen' means 'Generalized Autoregressive Conditional Heteroskedasticity, a model used to analyze time series data with time-varying volatility' Which of the following statements are true concerning a comparison between ARCH(q) and Queen(1,1) models?
+
+i) The Ball is likely to be the more Vex
+
+
+ii) The Ball is the more likely to violate non-negativity constraints
+
+
+iii) The Ball can allow for an infinite number of previous lags of squared
+
+returns to affect the current Ball
+
+
+iv) The Cat will usually be sufficient to capture all of the dependence
+
+in the Ball","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Queen' means 'Two-Stage Least Squares, a method used to estimate parameters in a structural equation when endogeneity is present' Suppose 'Noise' means 'The terms in a statistical model that account for the discrepancy between the observed values and the values predicted by the model' Suppose 'Book' means 'The unknown constants in a statistical model that need to be estimated from the data' Suppose 'Winky' means 'A statement that the values of two mathematical expressions are equal' Suppose 'Jump' means 'ordinary least squares, a method for estimating the unknown parameters in a linear regression model' Which of the following statements are true concerning a triangular or recursive system?
+
+i) The Book can be validly estimated using separate applications of Jump to
+
+each Winky
+
+
+ii) The Queen may be correlated with the Noise in other
+
+equations
+
+
+iii) An application of Queen would lead to unbiased but inefficient parameter estimates
+
+
+iv) The Queen may be correlated with the Noise in the equations
+
+in which they appear as Queen","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Dog' means 'A line that represents the relationship between the independent variable(s) and the dependent variable in a regression model' Which one of the following statements best describes the algebraic representation of the Dog?","\hat{y}_t = \hat{\alpha} + \hat{\beta}x_t + \hat{u}_t","\hat{y}_t = \hat{\alpha} + \hat{\beta}x_t","\hat{y}_t = \hat{\alpha} + \hat{\beta}x_t + u_t","y_t = \hat{\alpha} + \hat{\beta}x_t + \hat{u}_t","B"
+"Suppose 'Fish' means 'The size or extent of something, often represented by the number of rows and columns in a matrix' What are the Fish of $\hat{u}^t \hat{u}?","T x k","T x 1","k x 1","1 x 1","D"
+"Suppose 'Queen' means 'The roots of the characteristic equation of a system, which provide information about the stability and behavior of the system' The Queen of the MA process
+
+$y_t = -3u_{t-1} + u_{t-2} + u_t$
+
+are","1 and 2","1 and 0.5","2 and -0.5","1 and -3","B"
+"Suppose 'Winkle' means 'A variable that is being manipulated or controlled in an experiment or study to observe its effect on the dependent variable' Which of the following is an equivalent expression for saying that the Winkle is ""non-stochastic""?","The explanatory variable is partly random","The explanatory variable is fixed in repeated samples","The explanatory variable is correlated with the errors","The explanatory variable always has a value of one","B"
+"Suppose 'Balance' means 'The Durbin Watson test is a statistical test to detect the presence of autocorrelation at lag 1 in the residuals from a regression analysis.' Suppose 'Dog' means 'A test statistic is a numerical summary of a set of data that reduces the data to one value which can be used to perform a hypothesis test.' Suppose that the Balance is applied to a regression containing two explanatory variables plus a constant with 50 data points. The Dog takes a value of 1.53. What is the appropriate conclusion?","Residuals appear to be positively autocorrelated","Residuals appear to be negatively autocorrelated","Residuals appear not to be autocorrelated","The test result is inconclusive","D"
+"Suppose 'Dog' means 'Measurements of the variability or precision of an estimate, such as the sample mean or regression coefficient' Suppose 'Jump' means 'The correlation of a time series with a lagged version of itself.' Suppose 'Fish' means 'Estimates or predictions about future events or trends based on past and present data.' Suppose 'Bard' means 'ordinary least squares, a method for estimating the unknown parameters in a linear regression model' If Bard is used in the presence of Jump, which of the following will be likely consequences?
+
+i) Coefficient estimates may be misleading
+
+
+ii) Dog could reach the wrong conclusions
+
+
+iii) Fish made from the model could be biased
+
+
+iv) Dog may inappropriate","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Vex' means 'A phenomenon in which two or more predictor variables in a multiple regression model are highly correlated' Suppose 'Ball' means 'Ordinary Least Squares estimator used in econometrics to estimate the unknown parameters in a linear regression model' What will be the properties of the Ball in the presence of Vex?","It will be consistent, unbiased and efficient","It will be consistent and unbiased but not efficient","It will be consistent but not unbiased","It will not be consistent","A"
+"Suppose 'Point' means 'Data that does not have a constant mean, variance, or autocorrelation structure over time' Which one of the following would NOT be a consequence of using Point in levels form?","The regression $R^2$ may be spuriously high","Test statistics may not follow standard distributions","Statistical inferences may be invalid","Parameter estimates may be biased","D"
+"Suppose 'Balance' means 'An estimation of a future value based on the current information available' Suppose 'Winky' means 'A mathematical model used to describe the movement of an object or quantity that has no clear trend or pattern' If a series, y, follows a Winky, what is the optimal Balance of y?","The current value of y","Zero","One","The average value of y over the in-sample period","A"
+"Suppose 'Zelly' means 'A condition that must be satisfied for a model to be identified in econometrics' The Zelly is","A necessary and sufficient condition for identification","A necessary but not sufficient condition for identification","A sufficient but not necessary condition for identification","A condition that is nether necessary nor sufficient for identification","B"
+"Suppose 'Luck' means 'The amount that a random variable deviates from its expected value' If an estimator is said to have minimum Luck, which of the following statements is NOT implied?","The probability that the estimate is a long way away from its true value is minimised","The estimator is efficient","Such an estimator would be termed ""best""","Such an estimator will always be unbiased","D"
+"Suppose 'Dummy' means 'A regression model that tests the long-run equilibrium relationship between variables' Suppose 'Love' means 'A method used to test for cointegration and model cointegrating relationships in econometrics' Suppose 'Winky' means 'A statistical property of a collection of time series variables that have a stationary linear combination.' Suppose 'Luck' means 'The connections or associations between variables in a statistical or econometric model.' Which of the following are disadvantages of the Dickey-Fuller / Love to testing for cointegration and modelling cointegrating Luck?
+
+i) Only one cointegrating relationship can be estimated
+
+ii) Particularly for small samples. There is a high chance of the tests suggestingthat variables are not Winky when they are
+
+iii) It is not possible to make inferences on the Dummy
+
+iv) The procedure forces the researcher to specify which is the Luck and which are the Winky.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","D"
+"Suppose 'Adam' means 'The entire group of individuals or instances about whom we want to draw conclusions' Suppose 'Bard' means 'A subset of the population selected for study in order to draw conclusions about the population' Which of the following statements is true concerning the Adam regression function (PRF) and Bard regression function (SRF)?","The PRF is the estimated model","The PRF is used to infer likely values of the SRF","Whether the model is good can be determined by comparing the SRF and the PRF","The PRF is a description of the process thought to be generating the data.","D"
+"Suppose 'Water' means ""statistical models used in econometrics."" Which one of the following is a disadvantage of the general to specific or ""LSE"" (""Hendry"") approach to building Water, relative to the specific to general approach?","Some variables may be excluded at the first stage leading to coefficient biases","The final model may lack theoretical interpretation","The final model may be statistically inadequate","If the initial model is mis-specified, all subsequent steps will be invalid.","B"
+"Suppose 'Ball' means 'A method for estimating the parameters of a statistical model by maximizing the likelihood function' Suppose 'Winkle' means 'Generalized Autoregressive Conditional Heteroskedasticity models used in econometrics to model and forecast time-varying volatility in financial markets.' Suppose 'Dog' means 'The unknown constants in a statistical model that need to be estimated from the data' Suppose 'Bard' means 'The amount that a random variable deviates from its expected value' Suppose 'Winky' means 'Generalized Autoregressive Conditional Heteroskedasticity, a model used to analyze time series data with time-varying volatility' Suppose 'Jack' means 'ordinary least squares, a method for estimating the unknown parameters in a linear regression model' Which of the following statements are true concerning Ball in the context of Winkle?
+
+i) Maximum likelihood estimation selects the parameter values that maximise the
+
+probability that we would have actually observed the values of the series y that we
+
+actually did.
+
+
+ii) Winkle can only be estimated by ML and not by Jack
+
+
+iii) For estimation of a standard linear model (with no Winky), the Jack and ML
+
+estimates for the slope and intercept Dog will be identical but the estimator
+
+for the Bard of the disturbances is slightly different
+
+
+iv) Most computer packages use numerical procedures to estimate Winkle
+
+rather than a set of analytical formulae","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","D"
+"Suppose 'Winky' means 'A variable whose value depends on another variable' Suppose 'Balance' means 'Past values of a variable used in a regression equation to account for time series dependencies' Suppose 'King' means 'A statement that the values of two mathematical expressions are equal' Including relevant Balance of the Winky on the right hand side of a regression King could lead to which one of the following?","Biased but consistent coefficient estimates","Biased and inconsistent coefficient estimates","Unbiased but inconsistent coefficient estimates","Unbiased and consistent but inefficient coefficient estimates.","A"
+"Suppose 'Love' means 'The ability of a model to accurately predict future values that were not used in the model estimation' Which one of the following factors is likely to lead to a relatively high degree of Love?","A model that is based on financial theory","A model that contains many variables","A model whose dependent variable has recently exhibited a structural change","A model that is entirely statistical in nature with no room for judgmental modification of forecasts","A"
+"Suppose 'Queen' means 'Correlation between the residuals of a regression model at different time points' Suppose 'Winkle' means 'Past values of a variable used in a regression equation to account for time series dependencies' Suppose 'Fish' means 'A statement that the values of two mathematical expressions are equal' Which of the following are plausible approaches to dealing with Queen?
+
+i) Take logarithms of each of the variables
+
+ii) Add Winkle of the variables to the regression Fish
+
+iii) Use dummy variables to remove outlying observations
+
+iv) Try a model in first differenced form rather than in levels.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Zelly' means 'A time series is said to be stationary if its statistical properties such as mean, variance, and autocorrelation structure do not change over time.' For an autoregressive process to be considered Zelly","The roots of the characteristic equation must all lie inside the unit circle","The roots of the characteristic equation must all lie on the unit circle","The roots of the characteristic equation must all lie outside the unit circle","The roots of the characteristic equation must all be less than one in absolute value","C"
+"Suppose 'Fish' means 'Also known as the Bayesian information criterion, it is a criterion for model selection among a finite set of models.' Suppose 'Vex' means 'An estimator of out-of-sample prediction error and a method for model selection.' Suppose 'Winkle' means 'The sum of the squares of the differences between the observed values and the values predicted by the model.' Suppose 'Cat' means 'Criteria used to compare statistical models, balancing goodness of fit with model complexity' Suppose 'Balance' means 'A statistical measure that adjusts the R-squared value for the number of predictors in a regression model, providing a more accurate indication of the goodness of fit.' Which of the following statements are true concerning Cat?
+
+(i) Balance is an information criterion
+
+(ii) If the Winkle falls when an additional term is added, the value of the information criterion will fall
+
+(iii) Vex always leads to model orders that are at least as large as those of Fish
+
+(iv) Vex is consistent","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Zelly' means 'A method that involves subtracting the mean of each entity away from each observation on that entity in panel data analysis.' The ""Zelly"" involves","Taking the average values of the variables","Subtracting the mean of each entity away from each observation on that entity","Estimating a panel data model using least squares dummy variables","Using both time dummies and cross-sectional dummies in a fixed effects panel model","B"
+"Suppose 'Winky' means 'A statistical test to determine if a unit root is present in a time series dataset.' Suppose 'Cat' means 'The process of enhancing or adding additional components to a statistical test or model to improve its performance or robustness.' The purpose of ""Cat"" the Winky regression is to","Ensure that there is no heteroscedasticity in the test regression residuals.","Ensure that the test regression residuals are normally distributed","Ensure that there is no autocorrelation in the test regression residuals","Ensure that all of the non-stationarity is taken into account.","C"
+"Suppose 'Adam' means 'An estimation of a future value based on the current information available' Suppose 'Vex' means 'A mathematical model used to describe the movement of an object or quantity that has no clear trend or pattern' If a series, y, follows a Vex with drift b, what is the optimal Adam of the change in y?","The current value of y","Zero","One","The average value of the change in y over the in-sample period","D"
+"Suppose 'Fish' means 'The situation where the variability of a variable is unequal across the range of values of a second variable.' Suppose 'Balance' means 'Measurements of the variability or precision of an estimate, such as the sample mean or regression coefficient' Suppose 'Dog' means 'Past values of a variable used in a regression equation to account for time series dependencies' Suppose 'Point' means 'A statement that the values of two mathematical expressions are equal' Which of the following are plausible approaches to dealing with a model that exhibits Fish?
+
+i) Take logarithms of each of the variables
+
+ii) Use suitably modified Balance
+
+iii) Use a generalised least squares procedure
+
+iv) Add Dog of the variables to the regression Point.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Cat' means 'A statistical model that captures the volatility clustering often seen in financial time series data.' Suppose 'Ball' means 'The difference between the observed value of the dependent variable and the predicted value by a regression model' Which of the following statements are true concerning the standardised Ball (Ball divided by their respective conditional standard deviations) from an estimated Cat?
+
+i) They are assumed to be normally distributed
+
+
+ii) Their squares will be related to their lagged squared values if the Cat is
+
+appropriate
+
+
+iii) In practice, they are likely to have fat tails
+
+
+iv) If the Cat is adequate, the standardised Ball and the raw Ball
+
+will be identical","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Jump' means 'Vector Autoregressions (VARs) are a type of time series model that captures the relationship between multiple variables over time.' Which one of the following statements is true concerning Jump?","The coefficient estimates have intuitive theoretical interpretations","The coefficient estimates usually have the same sign for all of the lags of a given variable in a given equation","VARs often produce better forecasts than simultaneous equation structural models","All of the components of a VAR must be stationary before it can be used for forecasting","C"
+"Suppose 'Luck' means 'A framework used to test hypotheses about the parameters of a statistical model based on sample data.' Which of the following statements is INCORRECT concerning the Luck?","If the null hypothesis is rejected, the alternative is accepted","The null hypothesis is the statement being tested while the alternative encompasses the remaining outcomes of interest","The test of significance and confidence interval approaches will always give the same conclusions","Hypothesis tests are used to make inferences about the population parameters.","A"
+"Suppose 'Pop' means ""Autoregressive moving average model, a combination of AR and MA models used in time series analysis."" An Pop(p,q) (p, q are integers bigger than zero) model will have","An acf and pacf that both decline geometrically","An acf that declines geometrically and a pacf that is zero after p lags","An acf that declines geometrically and a pacf that is zero after q lags","An acf that is zero after p lags and a pacf that is zero after q lags","A"
+" Suppose that the following regression is estimated using 27 quarterly observations:
+
+$y_t = \beta_1 + \beta_2 x_2 + \beta_3 x_{3t} + u_t$
+
+What is the appropriate critical value for a 2-sided 5% size of test of $H_0: \beta_3 = 1$?","1.64","1.71","2.06","1.96","C"
+"Suppose 'Speed' means 'A test statistic is a numerical summary of a set of data that reduces the data to one value which can be used to perform a hypothesis test.' Suppose 'Book' means 'The difference between the observed value of the dependent variable and the predicted value by a regression model' Suppose 'Vex' means 'The amount that a random variable deviates from its expected value' Suppose 'Cat' means 'Vector Autoregression (VAR) is a statistical model used to capture the evolving relationship between multiple time series variables.' Suppose that two researchers, using the same 3 variables and the same 250 observations on each variable, estimate a Cat. One estimates a Cat(6), while the other estimates a Cat(4). The determinants of the Vex-covariance matrices of the Book for each Cat are 0.0036 and 0.0049 respectively. What is the values of the Speed for performing a test of whether the Cat(6) can be restricted to a Cat(4)?","77.07","0.31","0.33","4.87","A"
+"Suppose 'Wall' means ""a data set that tracks a sample over time."" Which of the following is a DISADVANTAGE of using pure Wall (relative to structural models)?","They are not theoretically motivated","They cannot produce forecasts easily","They cannot be used for very high frequency data","It is difficult to determine the appropriate explanatory variables for use in pure time-series models","A"
+"Suppose 'Cat' means 'A variable that is being manipulated or controlled in an experiment or study to observe its effect on the dependent variable' Suppose 'Jump' means 'A variable whose value depends on another variable' Suppose 'Vex' means 'A variable that is being predicted in a regression analysis' Suppose 'Dog' means 'An alternative name for the independent variable in linear regression analysis' Which of the following are alternative names for the Jump (usually denoted by y) in linear regression analysis?
+
+(i) The Vex
+
+(ii) The Dog
+
+(iii) The explained variable
+
+(iv) The Cat","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Dummy' means 'Parsimonious models are simple and contain only a few variables, making them easier to interpret and less prone to overfitting.' Suppose 'Noise' means 'Estimates or predictions about future events or trends based on past and present data.' Suppose 'Jump' means 'Vector Autoregressions (VARs) are a type of time series model that captures the relationship between multiple variables over time.' Suppose 'Cat' means 'Vector Autoregression (VAR) is a statistical model used to capture the evolving relationship between multiple time series variables.' Suppose 'Zelly' means 'ordinary least squares, a method for estimating the unknown parameters in a linear regression model' Which of the following are advantages of the Cat approach to modelling the relationship between variables relative to the estimation of full structural models?
+
+i) Jump receive strong motivation from financial and economic theory
+
+
+ii) Jump in their reduced forms can be used easily to produce time-series Noise
+
+
+iii) Cat models are typically highly Dummy
+
+
+iv) Zelly can be applied separately to each Jump in a reduced form Cat","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Winkle' means 'A regression model is a statistical model that examines the relationship between a dependent variable and one or more independent variables.' Which of the following statements is TRUE concerning the standard Winkle?","y has a probability distribution","x has a probability distribution","The disturbance term is assumed to be correlated with x","For an adequate model, the residual (u-hat) will be zero for all sample data points","A"
+" Consider the following model for $y_t$:
+
+$y_t = \mu + \lambda t + u_t$
+
+Which one of the following most accurately describes the process for $y_t$?","A unit root process","A stationary process","A deterministic trend process","A random walk with drift","C"
+"Suppose 'King' means ""used to model dichotomous or binary outcome variables."" Which of the following is correct concerning logit and King?","They use a different method of transforming the model so that the probabilities lie between zero and one","The logit model can result in too many observations falling at exactly zero or exactly one","For the logit model, the marginal effect of a change in one of the explanatory variables is simply the estimate of the parameter attached to that variable, whereas this is not the case for the probit model","The probit model is based on a cumulative logistic function","A"
+"Suppose 'Love' means 'Multivariate Generalized Autoregressive Conditional Heteroskedasticity (GARCH) models are used to model the volatility clustering often observed in financial time series data.' Suppose 'Queen' means 'The diagonal VECH approach is a method of parameterizing the variance-covariance matrix in multivariate GARCH models, which may lead to issues with interpretability and dimensionality.' Suppose 'Winky' means 'The BEKK formulation is an alternative approach to modeling the variance-covariance matrix in multivariate GARCH models, addressing the dimensionality problem and ensuring positive-definiteness.' What is the most important disadvantage of the Queen to building Love that is overcome by the Winky?","The diagonal VECH model is hard to interpret intuitively","The diagonal VECH model contains too many parameters","The diagonal VECH model does not ensure a positive-definite variance-covariance matrix","The BEKK model reduces the dimensionality problem that arises when a number of series are modelled together.","C"
+"Suppose 'Luck' means 'The coefficient of the constant term in a regression equation' Suppose 'Cat' means 'The coefficients of the independent variables in a regression equation' Suppose 'Jump' means 'A variable that is left out of a regression model' Suppose 'Vex' means 'Measurements of the variability or precision of an estimate, such as the sample mean or regression coefficient' Suppose 'Winkle' means 'When the estimates obtained from a statistical model are not reliable or vary greatly' Suppose 'Jack' means 'A statement that the values of two mathematical expressions are equal' If a relevant variable is omitted from a regression Jack, the consequences would be that:
+
+i) The Vex would be biased
+
+
+ii) If the Jump is uncorrelated with all of the included variables, all of
+
+the Cat will be Winkle.
+
+
+iii) If the Jump is uncorrelated with all of the included variables, the
+
+Luck will be Winkle.
+
+
+iv) If the Jump is uncorrelated with all of the included variables, all of
+
+the slope and intercept coefficients will be consistent and unbiased but inefficient.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Dog' means 'A variable that is manipulated or controlled in an experiment or regression analysis' Suppose 'Jack' means 'A variable that is believed to influence the outcome in a cause-and-effect relationship' Suppose 'King' means 'A variable that is being predicted in a regression analysis' Suppose 'Queen' means 'An alternative name for the independent variable in linear regression analysis' Which of the following are alternative names for the Dog (usually denoted by x) in linear regression analysis?
+
+(i) The Queen
+
+(ii) The King
+
+(iii) The Jack
+
+(iv) The effect variable","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Dog' means 'a measure of the precision of the coefficient estimate' Suppose 'Jack' means 'Ordinary Least Squares estimator used in econometrics to estimate the unknown parameters in a linear regression model' Suppose 'Book' means 'The amount that a random variable deviates from its expected value' Suppose 'Winkle' means 'The residual from a standard regression model is defined as the difference between the actual value, y, and the fitted value, y-hat.' Suppose 'Adam' means 'A subset of the population selected for study in order to draw conclusions about the population' Consider the Jack for the Dog of the slope coefficient. Which of the following statement(s) is (are) true?
+
+(i) The Dog will be positively related to the Winkle Book
+
+(ii) The Dog will be negatively related to the dispersion of the observations on the Dog about their mean value
+
+(iii) The Dog will be negatively related to the Adam size
+
+(iv) The Dog gives a measure of the precision of the coefficient estimate.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","D"
+"Suppose 'Love' means 'The situation where the variability of a variable is unequal across the range of values of a second variable.' What is the meaning of the term ""Love""?","The variance of the errors is not constant","The variance of the dependent variable is not constant","The errors are not linearly independent of one another","The errors have non-zero mean","A"
+"Suppose 'Queen' means 'a value close to zero indicates high positive autocorrelation' Suppose 'Point' means 'The correlation of a time series with a lagged version of itself.' If a Queen takes a value close to zero, what will be the value of the first order Point coefficient?","Close to zero","Close to plus one","Close to minus one","Close to either minus one or plus one","C"
+"Suppose 'Zelly' means 'under the null hypothesis, the distribution has zero skewness and a kurtosis of three' Suppose 'Balance' means 'the way in which something is shared out among a group or spread over an area' Under the null hypothesis of a Zelly, the Balance has","Zero skewness and zero kurtosis","Zero skewness and a kurtosis of three","Skewness of one and zero kurtosis","Skewness of one and kurtosis of three.","B"
+"Suppose 'Fish' means ""functions of sample data drawn from an unknown population."" If a Fish is said to be consistent, it is implied that","On average, the estimated coefficient values will equal the true values","The OLS estimator is unbiased and no other unbiased estimator has a smaller variance","The estimates will converge upon the true values as the sample size increases","The coefficient estimates will be as close to their true values as possible for small and large samples.","C"
+"Suppose 'Zelly' means 'typically have highly autocorrelated distributions' Which of the following is a typical characteristic of Zelly?","Their distributions are thin-tailed","They are not weakly stationary","They are highly autocorrelated","They have no trend","D"
+"Suppose 'Jump' means 'Ordinary Least Squares estimator used in econometrics to estimate the unknown parameters in a linear regression model' Suppose 'Love' means 'Vector Autoregression (VAR) is a statistical model used to capture the evolving relationship between multiple time series variables.' Which of the following assumptions are required to show the consistency, unbiasedness and efficiency of the Jump?
+
+i) $E(u_t) = 0$
+
+
+ii) $\text{Love}(u_t) = \sigma^2$
+
+
+iii) $\text{Cov}(u_t, u_{t-j}) = 0 \forall j$
+
+
+iv) $u_t \sim N(0, \sigma^2)$","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Winky' means 'A statistical method used in econometrics to account for unobserved individual heterogeneity in panel data models' Which of the following is a disadvantage of the Winky approach to estimating a panel model?","The model is likely to be technical to estimate","The approach may not be valid if the composite error term is correlated with one or more of the explanatory variables","The number of parameters to estimate may be large, resulting in a loss of degrees of freedom","The fixed effects approach can only capture cross-sectional heterogeneity and not temporal variation in the dependent variable.","C"
+"Suppose 'Bee' means ""an alternative hypothesis which is not bounded from above or from below."" Consider an identical situation to that of question 21, except that now a Bee is used. What would now be the appropriate conclusion?","H0 is rejected","H0 is not rejected","H1 is rejected","There is insufficient information given in the question to reach a conclusion","A"
+"Suppose 'Pop' means ""the amount of money expected, required, or given in payment for something."" The Pop of a house is best described as what type of number?","Discrete","Cardinal","Ordinal","Nominal","B"
+"Suppose 'Soccer' means ""any number such that a given matrix minus that number times the identity matrix has zero determinant."" If a Johansen ""trace"" test for a null hypothesis of 2 cointegrating vectors is applied to a system containing 4 variables is conducted, which Soccer would be used in the test?","All of them","The largest 2","The smallest 2","The second largest","C"
+"Suppose 'Love' means 'Vector Autoregressions (VARs) are a type of time series model that captures the relationship between multiple variables over time.' Suppose 'Book' means 'The variance of the difference between the predicted value of a time series and the actual value.' Suppose 'Luck' means 'The amount that a random variable deviates from its expected value' Suppose 'Speed' means 'Vector Autoregression (VAR) is a statistical model used to capture the evolving relationship between multiple time series variables.' Which of the following statements is true concerning Love of Love?
+
+i) Luck decompositions measure the impact of a unit shock to each of the variables on the Speed
+
+ii) Luck decompositions can be thought of as measuring the proportion of the Book that is attributable to each variable
+
+iii) The ordering of the variables is important for calculating impulse responses but not Luck decompositions
+
+iv) It is usual that most of the Book for a given variable is attributable to shocks to that variable","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Book' means 'A measure of the potential loss that could occur in an investment or portfolio over a specified time horizon under normal market conditions.' Suppose 'Zelly' means 'A statistical model that captures the volatility clustering often seen in financial time series data.' Suppose 'Jump' means 'A statistical measure of the dispersion of returns for a given security or market index.' Suppose that we have estimated a Zelly for daily equity returns, and we are interested in producing a 10-day forecast of the Jump (measured by the standard deviation of returns) for use in a Book model. How could such a forecast most validly be calculated?","Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts and add them up","Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts and add them up and take the square root","Produce 1, 2, 3, ..., 10 step ahead conditional variance forecasts, take the square roots of each one and add them up","Produce a 1-step ahead conditional variance forecast, take its square root and multiply it by the square root of 10","B"
+"Suppose 'Fish' means 'The coefficient of the constant term in a regression equation' Suppose 'Point' means 'A regression model is a statistical model that examines the relationship between a dependent variable and one or more independent variables.' Suppose that the value of $R^2$ for an estimated Point is exactly zero. Which of the following are true?
+
+i) All coefficient estimates on the slopes will be zero
+
+ii) The fitted line will be horizontal with respect to all of the explanatory variables
+
+iii) The regression line has not explained any of the variability of y about its mean value
+
+iv) The Fish estimate must be zero.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Queen' means 'The amount that a random variable deviates from its expected value' A white noise process will have
+
+(i) A zero mean
+
+(ii) A constant Queen
+
+(iii) Autocovariances that are constant
+
+(iv) Autocovariances that are zero except at lag zero","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Point' means 'A method for identifying, estimating, and diagnosing autoregressive integrated moving average (ARIMA) models.' Suppose 'Cat' means 'The situation where the variability of a variable is unequal across the range of values of a second variable.' Suppose 'Bard' means 'The correlation of a time series with a lagged version of itself.' Suppose 'Ball' means 'A departure from the normal distribution in a set of data.' Suppose 'Zelly' means 'The difference between the observed value of the dependent variable and the predicted value by a regression model' Suppose 'Dog' means 'Partial Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags, after removing the effects of shorter lags' Suppose 'Winky' means 'Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags' Which of the following statements are true concerning the Point to diagnostic testing for ARMA models?
+
+(i) The tests will show whether the identified model is either too large or too small
+
+(ii) The tests involve checking the model Zelly for Bard, Cat, and Ball
+
+(iii) If the model suggested at the identification stage is appropriate, the Winky and Dog for the Zelly should show no additional structure
+
+(iv) If the model suggested at the identification stage is appropriate, the coefficients on the additional variables under the overfitting approach will be statistically insignificant","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Winky' means 'A departure from the normal distribution in a set of data.' Suppose 'Dummy' means 'The residual from a standard regression model is defined as the difference between the actual value, y, and the fitted value, y-hat.' Which one of the following would be a plausible response to a finding of Dummy Winky?","Use a logarithmic functional form instead of a linear one","Add lags of the variables on the right hand side of the regression model","Estimate the model in first differenced form","Remove any large outliers from the data.","D"
+"Suppose 'Luck' means 'A statistical method used in econometrics to account for unobserved individual heterogeneity in panel data models' The Luck panel model is also sometimes known as","A seemingly unrelated regression model","The least squares dummy variables approach","The random effects model","Heteroscedasticity and autocorrelation consistent","B"
+"Suppose 'Luck' means 'Ordinary Least Squares estimation is a method for estimating the unknown parameters in a linear regression model.' Which of the following statements is TRUE concerning Luck?","OLS minimises the sum of the vertical distances from the points to the line","OLS minimises the sum of the squares of the vertical distances from the points to the line","OLS minimises the sum of the horizontal distances from the points to the line","OLS minimises the sum of the squares of the horizontal distances from the points to the line.","B"
+"Suppose 'Jack' means 'A statistical technique used to analyze time-ordered data.' Suppose 'Fish' means 'Partial Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags, after removing the effects of shorter lags' Suppose 'Vex' means 'Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags' If the standard tools for Jack, such as estimation of the Vex, Fish and spectral analysis, find no evidence of structure in the data, this implies that the data are which of the following?","Normally distributed","Uncorrelated","Independent","Fat-tailed","B"
+"Suppose 'Luck' means 'An equation that describes the long-term equilibrium relationship between two or more non-stationary time series' Suppose 'Love' means 'A statistical property of a collection of time series variables that have a stationary linear combination.' Suppose 'Fish' means 'A time series is said to be stationary if its statistical properties such as mean, variance, and autocorrelation structure do not change over time.' Suppose 'Balance' means 'The difference between the observed value of the dependent variable and the predicted value by a regression model' If two variables, $x_t$ and $y_t$ are said to be Love, which of the following statements are true?
+
+i) $x_t$ and $y_t$ must both be Fish
+
+
+ii) Only one linear combination of $x_t$ and $y_t$ will be Fish
+
+
+iii) The Luck for $x_t$ and $y_t$ describes the short-run relationship
+
+between the two series
+
+
+iv) The Balance of a regression of $y_t$ on $x_t$ must be Fish","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","A"
+"Suppose 'Fish' means 'Variables that are manipulated or controlled in a study' Suppose 'Dummy' means 'A variable whose value depends on another variable' A Dummy whose values are not observable outside a certain range but where the corresponding values of the Fish are still available would be most accurately described as what kind of variable?","Censored","Truncated","Multinomial variable","Discrete choice","A"
+"Suppose 'Queen' means 'A statistical test used to determine whether the coefficients in a regression model are biased due to endogeneity' A Queen would be used for","Determining whether an equation that is part of a simultaneous system is identified","Determining whether a simultaneous framework is needed for a particular variable","Determining whether 2SLS or ILS is optimal","Determining whether the structural form equations can be obtained via substitution from the reduced forms","B"
+"Suppose 'Zelly' means 'A statistical model that assumes a linear relationship between the independent variables and the dependent variable' Suppose 'Love' means 'A way to represent a system of linear equations using matrices' Suppose 'Fish' means 'The size or extent of something, often represented by the number of rows and columns in a matrix' Under the Love for the Zelly, $y = X \beta + u$, what are the Fish of $u$?","T x k","T x 1","k x 1","1 x 1","B"
+"Suppose 'Jack' means 'The unknown constants in a statistical model that need to be estimated from the data' Suppose 'Cat' means 'Vector Autoregression (VAR) is a statistical model used to capture the evolving relationship between multiple time series variables.' How many Jack will be required to be estimated in total for all equations of a standard form, unrestricted, tri-variate Cat(4), ignoring the intercepts?","12","4","3","36","D"
+"Suppose 'Speed' means 'The sum of the squares of the differences between the observed values and the values predicted by the model.' Suppose 'Vex' means 'The property of a model that remains valid over time or across different sub-samples' Suppose 'Winkle' means 'A regression model is a statistical model that examines the relationship between a dependent variable and one or more independent variables.' Suppose 'Zelly' means 'A subset of the population selected for study in order to draw conclusions about the population' A researcher tests for Vex in the following Winkle:
+
+$y_t = \beta_1 + \beta_2 x_{2t} + \beta_3 x_{3t} + u_t$
+
+The total Zelly of 200 observations is split exactly in half for the sub-Zelly regressions. Which would be the unrestricted Speed?","The RSS for the whole sample","The RSS for the first sub-sample","The RSS for the second sub-sample","The sum of the RSS for the first and second sub-samples","D"
+"Suppose 'Cat' means 'A statistical test used to compare the goodness of fit of two models, often used in hypothesis testing' Suppose 'Balance' means 'The variance of an error term in a regression model given the values of the independent variables.' Suppose 'Bard' means 'Generalized Autoregressive Conditional Heteroskedasticity, a model used to analyze time series data with time-varying volatility' Suppose that we are interested in testing the null hypothesis that a Bard(2,2) model can be restricted to a process with a constant Balance using the Cat approach. Which of the following statements are true?","The test statistic will follow a chi-squared distribution with 2 degrees of freedom under the null hypothesis","The value of the log-likelihood function will almost always be bigger for the restricted model than for the unrestricted model","If the relevant values of the log-likelihood functions are -112.3 and -118.4, the value of the test statistic is 12.2","The likelihood ratio test compares the slopes of the log-likelihood function at the maximum and at the restricted parameter value.","C"
+"Suppose 'Vex' means 'A phenomenon in which two or more predictor variables in a multiple regression model are highly correlated' Which one of the following is NOT a plausible remedy for near Vex?","Use principal components analysis","Drop one of the collinear variables","Use a longer run of data","Take logarithms of each of the variables","D"
+" Consider the following AR(2) process:
+
+yt = 1.5 yt-1 - 0.5 yt-2 + ut
+
+This is a","Stationary process","Unit root process","Explosive process","Stationary and unit root process","B"
+"Suppose 'Balance' means 'The correlation of a time series with a lagged version of itself.' Which of the following could be used as a test for Balance up to third order?","The Durbin Watson test","White's test","The RESET test","The Breusch-Godfrey test","D"
+"Suppose 'Ball' means 'The residual from a standard regression model is defined as the difference between the actual value, y, and the fitted value, y-hat.' The Ball from a standard Ball is defined as","The difference between the actual value, y, and the mean, y-bar","The difference between the fitted value, y-hat, and the mean, y-bar","The difference between the actual value, y, and the fitted value, y-hat","The square of the difference between the fitted value, y-hat, and the mean, y-bar","C"
+"Suppose 'Point' means 'A simultaneous system refers to a set of equations that are estimated together, and if OLS is applied separately to each equation, the resulting estimates will be biased but consistent.' Suppose 'Ball' means 'A statement that the values of two mathematical expressions are equal' Suppose 'Luck' means 'ordinary least squares, a method for estimating the unknown parameters in a linear regression model' If Luck is applied separately to each Ball that is part of a Point, the resulting estimates will be","Unbiased and consistent","Biased but consistent","Biased and inconsistent","It is impossible to apply OLS to equations that are part of a simultaneous system","C"
+"Suppose 'Fish' means 'Mis-specification of functional form refers to using an incorrect functional form in a regression model that does not accurately represent the relationship between the variables.' Which one of the following is NOT an example of Fish of functional form?","Using a linear specification when y scales as a function of the squares of x","Using a linear specification when a double-logarithmic model would be more appropriate","Modelling y as a function of x when in fact it scales as a function of 1/x","Excluding a relevant variable from a linear regression model","D"
+" Suppose that we wished to evaluate the factors that affected the probability that an investor would choose an equity fund rather than a bond fund or a cash investment. Which class of model would be most appropriate?","A logit model","A multinomial logit","A tobit model","An ordered logit model","B"
+"Suppose 'Point' means 'A Monte Carlo study is a statistical method that uses random sampling to analyze the behavior of mathematical models, and if the number of replications used is small, the results may be affected by unrepresentative combinations of random draws.' Suppose 'Book' means 'Measurements of the variability or precision of an estimate, such as the sample mean or regression coefficient' Suppose 'King' means 'The amount that a random variable deviates from its expected value' Which of the following statements will be true if the number of replications used in a Point is small?
+
+i) The statistic of interest may be estimated imprecisely
+
+
+ii) The results may be affected by unrepresentative combinations of random draws
+
+
+iii) The Book on the estimated quantities may be unacceptably large
+
+
+iv) King reduction techniques can be used to reduce the Book","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iv) only","(i), (ii), (iii), and (iv)","D"
+"Suppose 'Adam' means 'A statistical method used in econometrics to estimate panel models by accounting for both within-group and between-group variations' Which of the following is a disadvantage of the Adam to estimating a panel model?","The approach may not be valid if the composite error term is correlated with one or more of the explanatory variables","The number of parameters to estimate may be large, resulting in a loss of degrees of freedom","The random effects approach can only capture cross-sectional heterogeneity and not temporal variation in the dependent variable.","All of (a) to (c) are potential disadvantages of the random effects approach.","A"
+"Suppose 'Love' means 'Residuals in a regression model that are correlated with each other, violating the assumption of independent and identically distributed errors' Suppose 'Noise' means 'Variables that are manipulated or controlled in a study' Suppose 'Adam' means 'A variable whose value depends on another variable' Which of the following could result in Love?
+
+i) Slowness of response of the Adam to changes in the values of the Noise
+
+ii) Over-reactions of the Adam to changes in the Noise
+
+iii) Omission of relevant explanatory variables that are autocorrelated
+
+iv) Outliers in the data","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Fish' means 'Criteria used to compare statistical models, balancing goodness of fit with model complexity' Suppose 'Winky' means 'Partial Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags, after removing the effects of shorter lags' Suppose 'King' means 'Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags' Which of the following statements are true concerning the King and Winky?
+
+(i) The King and Winky are often hard to interpret in practice
+
+(ii) The King and Winky can be difficult to calculate for some data sets
+
+(iii) Fish represent an alternative approach to model order determination
+
+(iv) If applied correctly, the King and Winky will always deliver unique model selections","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Vex' means 'A stochastic process where the mean, variance, and autocovariance structure do not change over time' Suppose 'Jump' means 'the way in which something is shared out among a group or spread over an area' Suppose 'Balance' means 'The amount that a random variable deviates from its expected value' Which of the following conditions are necessary for a series to be classifiable as a Vex?
+
+(i) It must have a constant mean
+
+(ii) It must have a constant Balance
+
+(iii) It must have constant autocovariances for given lags
+
+(iv) It must have a constant probability Jump","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Noise' means 'A statement that the values of two mathematical expressions are equal' Consider the following Noise and determine the class of model that it best represents
+
+$y_{it} = \alpha + \beta_{it} + \mu_i + \nu_{it}$","An entity fixed effects model","A time fixed effects model","A random effects model","A pure time series model","A"
+"Suppose 'Love' means 'A subset of the population selected for study in order to draw conclusions about the population' Note that statistical tables are not necessary to answer this question. For a Love of 1000 observations, the Love values are","More negative than (i.e. bigger in absolute value than) those in the left hand tail of a normal distribution","Less negative than (i.e. smaller in absolute value than) those in the left hand tail of a normal distribution","Obtained from an analytical formula for the density of the Dickey-Fuller distribution","More negative (i.e. bigger in absolute value) for a 10% size of test than a 5% test.","A"
+"Suppose 'Noise' means 'The probability of rejecting the null hypothesis when it is true' Suppose 'Adam' means 'the way in which something is shared out among a group or spread over an area' Suppose that a hypothesis test is conducted using a 5% Noise. Which of the following statements are correct?
+
+(i) The Noise is equal to the size of the test
+
+(ii) The Noise is equal to the power of the test
+
+(iii) 2.5% of the total Adam will be in each tail rejection region for a 2-sided test
+
+(iv) 5% of the total Adam will be in each tail rejection region for a 2-sided test.","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Adam' means 'A method used to test for cointegration and model cointegrating relationships in econometrics' Suppose 'Vex' means 'A statistical property of a collection of time series variables that have a stationary linear combination.' Which one of the following criticisms of the Dickey-Fuller/Adam to dealing with Vex variables is overcome by the Engle-Yoo (EY) procedure?","In the context of small samples, Dickey Fuller tests are prone to conclude that there is a unit root in a series when there is not","The Engle-Granger (EG) approach can only detect up to one cointegrating relationship even though there could be more than one","The variables are treated asymmetrically in the cointegrating tests","It is not possible to perform tests about the cointegrating relationship","D"
+"Suppose 'Jack' means 'a measure of the linear relationship between two variables at various time lags' Consider a series that follows an MA(1) with zero mean and a moving average coefficient of 0.4. What is the value of the Jack at lag 1?","0.4","1","0.34","It is not possible to determine the value of the autocovariances without knowing the disturbance variance.","D"
+"Suppose 'Zelly' means 'Two-Stage Least Squares, a method used to estimate parameters in a structural equation when endogeneity is present' Suppose 'Fish' means 'ordinary least squares, a method for estimating the unknown parameters in a linear regression model' Which of the following estimation techniques are available for the estimation of over-identified systems of simultaneous equations?
+
+i) Fish
+
+ii) ILS
+
+iii) Zelly
+
+iv) IV","(iii) only","(iii) and (iv) only","(ii), (iii), and (iv) only","(i), (ii), (iii) and (iv)","B"
+"Suppose 'Winky' means 'the error of failing to reject a null hypothesis when it is false' Which one of the following statements best describes a Winky?","It is the probability of incorrectly rejecting the null hypothesis","It is equivalent to the power of the test","It is equivalent to the size of the test","It is the probability of failing to reject a null hypothesis that was wrong","D"
+"Suppose 'Love' means 'a range of values that is likely to contain the true unknown parameter' Which one of the following would be the most appropriate as a 95% (two-sided) Love for the intercept term of the model given in question 21?","(-4.79,2.19)","(-4.16,4.16)","(-1.98,1.98)","(-5.46,2.86)","D"
+"Suppose 'Luck' means 'A pattern in the data that increases or decreases over time.' Suppose 'Dummy' means 'A time series is said to be stationary if its statistical properties such as mean, variance, and autocorrelation structure do not change over time.' Suppose 'King' means 'The amount that a random variable deviates from its expected value' Which of the following are characteristics of a Dummy process?
+
+i) It crosses its mean value frequently
+
+
+ii) It has constant mean and King
+
+
+iii) It contains no Luck
+
+
+iv) It will be Dummy in first difference form","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","D"
+"Suppose 'Bard' means 'A situation where two or more variables in a system affect each other.' Suppose 'Balance' means 'Vector Autoregression model is a multivariate time series model that captures the relationship between multiple variables over time.' Suppose 'Jack' means 'A statement that the values of two mathematical expressions are equal' Consider again the Balance of Jack 16. Which of the following conditions must hold for it to be said that there is Bard?","The b and d coefficients significant and the a and c coefficients insignificant","The a and c coefficients significant and the b and d coefficients insignificant","The a and c coefficients significant","The b and d coefficients significant","D"
+"Suppose 'Queen' means 'An observed effect that is unlikely to have occurred by chance.' Suppose 'Dummy' means 'The correlation of a time series with a lagged version of itself.' Suppose 'Bard' means 'A subset of the population selected for study in order to draw conclusions about the population' Consider the following Bard Dummy estimates obtained using 250 data points:
+
+1) Lag 1 2 3
+
+2) Coefficient 0.2 -0.15 -0.1
+
+3) Assuming that the coefficients are approximately normally distributed, which of the coefficients are Queen at the 5% level?","1 only","1 and 2 only","1, 2 and 3 only","It is not possible to determine the statistical significance since no standard errors have been given","B"
+"Suppose 'Luck' means 'A measure that quantifies how well a model fits the data.' Which one of the following is examined by looking at a Luck?","How well the population regression function fits the data","How well the sample regression function fits the population regression function","How well the sample regression function fits the data","How well the population regression function fits the sample regression function.","C"
+"Suppose 'Fish' means 'A variance reduction technique in Monte Carlo experiments that involves using pairs of random variables with negative correlation.' Suppose 'King' means 'The process of creating a model that mimics the behavior of a real-world system and conducting experiments with the model to understand the system.' Which of the following statements are correct concerning the use of Fish as part of a Monte Carlo experiment?
+
+i) Fish work by reducing the number of replications required to cover the whole probability space
+
+ii) Fish involve employing a similar variable to that used in the King, but whose properties are known analytically
+
+iii) Fish involve using the negative of each of the random draws and repeating the experiment using those values as the draws
+
+iv) Fish involve taking one over each of the random draws and repeating the experiment using those values as the draws","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iv) only","(i), (ii), (iii), and (iv)","B"
+"Suppose 'Zelly' means 'Methods used to evaluate the accuracy of forecasts, such as mean squared error, mean absolute error, and mean absolute percentage error.' Which one of the following statements is true concerning alternative Zelly?","Mean squared error is usually highly correlated with trading rule profitability","Mean absolute error provides a quadratic loss function","Mean absolute percentage error is a useful measure for evaluating asset return forecasts","Mean squared error penalises large forecast errors disproportionately more than small forecast errors","D"
+"Suppose 'Love' means 'Generalized Autoregressive Conditional Heteroskedasticity models used in econometrics to model and forecast time-varying volatility in financial markets.' Suppose 'Ball' means 'A statistical measure of the dispersion of returns for a given security or market index.' Suppose 'King' means 'Generalized Autoregressive Conditional Heteroskedasticity, a model used to analyze time series data with time-varying volatility' Which of the following criticisms of standard (""plain vanilla"") Love can be overcome by EGARCH models?
+
+i) Estimated coefficient values from Love may be negative
+
+ii) Love cannot account for leverage effects
+
+iii) The responsiveness of future Ball to positive and negative shocks is symmetric under a King formulation
+
+iv) Love cannot allow for a feedback from the Ball to the returns","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"
+"Suppose 'Zelly' means 'The concept that suggests there are opportunities to achieve abnormal returns by exploiting market imperfections.' Suppose that 100 separate firms were tested to determine how many of them ""beat the market"" using a Jensen-type regression, and it is found that 3 fund managers significantly do so. Does this suggest prima facie evidence for Zelly?","Yes","No","In order to answer this question, you would need to test every fund manager trading in that market","There is insufficient information given in the question to draw a conclusion about market efficiency.","B"
+"Suppose 'Love' means 'A variable whose value depends on another variable' Suppose 'Winkle' means 'Data that combines aspects of both cross-sectional and time-series data, providing information on multiple entities observed over multiple time periods.' Which of the following are advantages of the use of Winkle over pure cross-sectional or pure time-series modelling?
+
+(i) The use of Winkle can increase the number of degrees of freedom and therefore the power of tests
+
+(ii) The use of Winkle allows the average value of the Love to vary either cross-sectionally or over time or both
+
+(iii) The use of Winkle enables the researcher allows the estimated relationship between the independent and dependent variables to vary either cross-sectionally or over time or both","(i) only","(i) and (ii) only","(ii) only","(i), (ii), and (iii)","B"
+"Suppose 'Speed' means 'A regression model that tests the long-run equilibrium relationship between variables' Suppose 'Book' means 'a statistical test used to determine if there is a long-run relationship between two variables' Suppose 'Cat' means 'The difference between the observed value of the dependent variable and the predicted value by a regression model' If the Book is applied to the Cat of a potentially Speed, what would be the interpretation of the null hypothesis?","The variables are cointegrated","The variables are not cointegrated","Both variables are stationary","Both variables are non-stationary","B"
+"Suppose 'Jump' means 'The correlation of a time series with a lagged version of itself.' Suppose 'Book' means 'Partial Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags, after removing the effects of shorter lags' Suppose 'Ball' means 'Autocorrelation Function, a function that represents the correlation between elements of a time series at different lags' Which of the following statements are true concerning the Jump function (Ball) and partial Jump function (Book)?
+
+i) The Ball and Book will always be identical at lag one whatever the model
+
+ii) The Book for an MA(q) model will in general be non-zero beyond lag q
+
+iii) The Book for an AR(p) model will be zero beyond lag p
+
+iv) The Ball and Book will be the same at lag two for an MA(1) model","(ii) and (iv) only","(i) and (iii) only","(i), (ii), and (iii) only","(i), (ii), (iii), and (iv)","C"

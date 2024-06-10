@@ -1,0 +1,13 @@
+﻿"Suppose we define Blorpt as all functions of a variable where each term is a power of that variable multiplied by a coefficient.
+Let V be the set of all Blorpt p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?","ST = 0","ST = T","ST = TS","Suppose 'Dummy' means ""a function that takes an input value and spits out the exact same value for the output."" ST - TS is the Dummy of V onto itself.","D"
+"Suppose we define Crunchy as the base unit of mass, Splash as the base unit of volume, and Whiz as the base unit of time.
+A tank initially contains a salt solution of 3 Crunchy of salt dissolved in 100 Splash of water. A salt solution containing 0.02 Crunchy/Splash of salt is sprayed into the tank at a rate of 4 Splash/Whiz. The sprayed solution is continually mixed with the salt solution in the tank, and the mixture flows out of the tank at a rate of 4 Splash/Whiz. If the mixing is instantaneous, how many Crunchy of salt are in the tank after 100 Whiz have elapsed?","2"," 2 - e^-2"," 2 + e^-2"," 2 + e^-4","D"
+"Suppose we define Zigzag as a rectangular array of numbers arranged in rows and columns.
+Let A be a real 2x2 Zigzag. Which of the following statements must be true?
+I. All of the entries of A^2 are nonnegative.
+II. The determinant of A^2 is nonnegative.
+III. If A has two distinct eigenvalues, then A^2 has two distinct eigenvalues."," I only"," II only"," III only"," II and III only","B"
+"Suppose we define Squiggle as a mathematical expression consisting of a finite number of terms, each term including a variable raised to a power and multiplied by a coefficient.
+Suppose that f(1 + x) = f(x) for all real x. If f is a Squiggle and f(5) = 11, then f(15/2)","-11","0","11"," 33/2","C"
+"Suppose we define Gloop as whole numbers that can be positive, negative, or zero.
+Let A be the set of all ordered pairs of Gloop (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?","-5","-4","-3","-2","B"

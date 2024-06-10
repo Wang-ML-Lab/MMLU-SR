@@ -1,0 +1,13 @@
+﻿Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?,a*(c + d)+ b(c + d),a*(c + d)* + b(c + d)*,a*(c + d)+ b*(c + d),(a + b)*c +(a + b)*d,D
+"A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?",5,6,7,8,B
+"The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.", I only, II only, III only," I, II, and III",D
+"A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is",5,6,7,9,D
+Which of the following statements about floating-point arithmetic is NOT true?, It is inherently nonassociative because some numbers have no exact representation., It is inherently nonassociative because there have to be upper and lower bounds on the size of numbers.,Suppose 'Dummy' means 'Property in mathematics where changing the grouping of operations does not affect the result.' Dummy can be achieved with appropriate roundoff conventions.,Suppose 'Cat' means "a fraction using two integers: a numerator and a denominator." Some Cat have no exact representation.,C
