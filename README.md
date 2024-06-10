@@ -1,4 +1,4 @@
-# MMLU-SR: NIPS Dataset Track 2024
+# MMLU-SR
 
 This is the official repository for the MMLU-SR: NIPS Dataset Track 2024 "Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models".
 
@@ -8,14 +8,29 @@ This is the official repository for the MMLU-SR: NIPS Dataset Track 2024 "Reason
 We wrapped our results and dataset in a single MMLU-SR zip file. To reproduce our results, you can run the following:
 
 ```bash
-python run_experiment.py --model_name <model_name> --dataset_path <path_to_dataset>
+python3 evaluate.py 
 ```
 
 ## Huggingface 
-We also provide a Hugging Face Dataset for users who want to use other frameworks like lm-evaluation-harness. Simply do:
+We also provide a Hugging Face Dataset for users who want to use other frameworks like lm-evaluation-harness. 
+To clone the entire dataset:
+```bash
+git clone https://huggingface.co/datasets/NiniCat/MMLU-SR
+```
+
+To run specific task(You can check the configuration to see the tasks):
 ```bash
 from datasets import load_dataset
-dataset = load_dataset("NiniCat/MMLU-SR")
+dataset = load_dataset("NiniCat/MMLU-SR", "answer_only_abstract_algebra")
+
+```
+You can check the train/test split by:
+```bash
+train_dataset = dataset["train"]
+test_dataset = dataset["test"]
+
+print(f"Number of training examples: {len(train_dataset)}")
+print(f"Number of test examples: {len(test_dataset)}")
 ```
 
 ## Results
