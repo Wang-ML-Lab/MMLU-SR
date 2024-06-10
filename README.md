@@ -5,11 +5,12 @@ This is the official repository for the MMLU-SR: NIPS Dataset Track 2024 "Reason
 ![MMLU-SR](images/MMLU-SR.png)
 
 ## Dataset and Results
-We wrapped our results and dataset in a single MMLU-SR zip file. To reproduce our results, you can run the following:
-
+Our datasets can be found in dataset folder and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR)
+To evaluate our dataset using GPT and Gemini, you can run the following:
 ```bash
-python3 evaluate.py 
+python evaluate.py 
 ```
+For Llama3, you need to look into lm-evaluation-harness folder and follow the instruction.
 The output of models' evaluation can be downloaded with this [Google Drive link](https://drive.google.com/file/d/1BKBx4LrkvU9WCnTREc1ENuRITT_xByI_/view?usp=sharing).
 
 ## Huggingface 
