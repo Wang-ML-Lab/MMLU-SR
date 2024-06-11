@@ -81,10 +81,10 @@ def main(args, tasks=TASKS):
         print("Testing %s ..." % task)
         acc = 0
         dev_df = pd.read_csv(
-            os.path.join("question_and_answer_dev", "question_and_answer_" + task + "_dev.csv"), header=None
+            os.path.join("dataset/question_and_answer_dev", "question_and_answer_" + task + "_dev.csv"), header=None
         )[: args.num_examples]
         test_df = pd.read_csv(
-            os.path.join("question_and_answer_test", "question_and_answer_" + task + "_test.csv"), header=None
+            os.path.join("dataset/question_and_answer_test", "question_and_answer_" + task + "_test.csv"), header=None
         )
         for i in tqdm(range(test_df.shape[0])):
             try:
