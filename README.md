@@ -34,7 +34,7 @@ To clone the entire dataset:
 git clone https://huggingface.co/datasets/NiniCat/MMLU-SR
 ```
 
-To run specific task(You can check the configuration to see the tasks):
+To run specific task(you can check the configuration to see the tasks):
 ```bash
 from datasets import load_dataset
 dataset = load_dataset("NiniCat/MMLU-SR", "answer_only_abstract_algebra")
