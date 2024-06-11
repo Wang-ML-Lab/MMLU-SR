@@ -7,7 +7,7 @@ This is the official repository for "Reasoning or Simply Next Token Prediction? 
 ![MMLU-SR](images/MMLU-SR2.PNG)
 
 ## Environment Setup
-It depends on what LLMs you are testing. To reproduce our experiment where we tested `gpt-3.5-turbo`, `gemini-1.0-pro` and `llama3-8b`, there a `environment.yml` file as reference. First, you need to install conda in your system. Then you can run:
+It depends on what LLMs you are testing. To reproduce our experiment where we tested `gpt-3.5-turbo`, `gemini-1.0-pro` and `llama3-8b`, there is a `environment.yml` file as reference. First, you need to install conda in your system. Then you can run:
 ```bash
 conda env create -f environment.yml
 conda activate mmlusr
