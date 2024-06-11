@@ -5,13 +5,18 @@ This is the official repository for the MMLU-SR: NIPS Dataset Track 2024 "Reason
 ![MMLU-SR](images/MMLU-SR2.PNG)
 
 ## Dataset and Results
-Our datasets can be found in dataset folder and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR)
+Our datasets can be found in dataset folder and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR).
 To evaluate our dataset using GPT and Gemini, you can run the following:
 ```bash
 python evaluate.py 
 ```
-For Llama3, you need to look into lm-evaluation-harness folder and follow the instruction.
+Once you have the output json files, you can use `categories.py` to view the grouped results:
+```bash
+python categories.py 
+```
+For Llama3, you need to look into `lm-evaluation-harness` folder and follow the instruction.
 The output of models' evaluation can be downloaded with this [Google Drive link](https://drive.google.com/file/d/1BKBx4LrkvU9WCnTREc1ENuRITT_xByI_/view?usp=sharing).
+lm-evaluation-harness will automatically categorize all subjects results in its json output file.
 
 ## Huggingface 
 We also provide a Hugging Face Dataset for users who want to use other frameworks like lm-evaluation-harness. 
@@ -35,8 +40,8 @@ print(f"Number of training examples: {len(train_dataset)}")
 print(f"Number of test examples: {len(test_dataset)}")
 ```
 
-## Results
-Our results evaluated on gpt-3.5-turbo, gemini-1.0-pro, and llama3-8b are summarized in the table below:
+## Experiment Results
+Our experiment evaluated on gpt-3.5-turbo, gemini-1.0-pro, and llama3-8b are summarized in the table below:
 
 | Model                  | Humanities | Social Sciences | STEM  | Other | Average |
 |------------------------|------------|-----------------|-------|-------|---------|
