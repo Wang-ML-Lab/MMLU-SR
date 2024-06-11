@@ -54,7 +54,7 @@ print(f"Number of test examples: {len(test_dataset)}")
 ## Experiment Results
 Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` are summarized in the table below:
 
-| Model                  | Humanities | Social Sciences | STEM  | Other | Average | Avg Drop |
+| Model/Dataset          | Humanities | Social Sciences | STEM  | Other | Average | Avg Drop |
 |------------------------|------------|-----------------|-------|-------|---------|----------|
 | **GPT-3.5-turbo**      |            |                 |       |       |         |
 | MMLU (5-shot)          | 0.723      | 0.770           | 0.554 | 0.714 | 0.677   |  -----   |
