@@ -39,7 +39,8 @@ def handle_output(args, results, logger):
         return
 
     path = Path(args.output_path)
-    if path.is_file() or path.with_name("question_and_answer_Meta-Llama-3-8B_5_shot.json").is_file():
+    #change output file name to associate task, e.g, change question_and_answer_Meta-Llama-3-8B_5_shot.json to question_only_Meta-Llama-3-8B_5_shot.json
+    if path.is_file() or path.with_name("question_and_answer_Meta-Llama-3-8B_5_shot.json").is_file(): 
         logger.warning(f"File already exists at {path}. Results will be overwritten.")
 
     output_dir = path.parent if path.suffix in (".json", ".jsonl") else path
@@ -49,6 +50,7 @@ def handle_output(args, results, logger):
     if args.show_config:
         logger.info(results_str)
 
+    #change output file name to associate task, e.g, change question_and_answer_Meta-Llama-3-8B_5_shot.json to question_only_Meta-Llama-3-8B_5_shot.json
     file_path = os.path.join(args.output_path, "question_and_answer_Meta-Llama-3-8B_5_shot.json")
     with open(file_path , "w", encoding="utf-8") as f:
         f.write(results_str)
