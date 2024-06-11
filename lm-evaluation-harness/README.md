@@ -34,7 +34,7 @@ Find more details in the official [lm-evaluation-harness documentation](https://
 
 ## Running the Experiment
 
-Ensure the `launch.sh` script is executable. If it's not, make it executable with:
+Before running the shell, always check your task name and output path matches path in `eval.py`. Ensure the `launch.sh` script is executable. If it's not, make it executable with:
 ```bash
 chmod +x launch.sh
 ```
