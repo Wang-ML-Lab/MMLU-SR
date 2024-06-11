@@ -69,22 +69,22 @@ def main(args, tasks=TASKS):
     elif "gemini" in args.model_name:
         # gemini evaluation
         litellm.vertex_project = " "  # Your Project ID
-        litellm.vertex_location = " "  # Your Project Location
+        litellm.vertex_location = " "  # Your Project Location, e.g us-east4
         litellm.drop_params = True
 
     all_acc = 0
     all_number = 0
     accs_json = {}
     method_name = "5-shot" # We used 5-shot as baseline experiment
-    outputs_file = open(f"results/question_and_answer_{args.model_name}_{method_name}_outputs.json", "a")
+    outputs_file = open(f"results/{args.task}_{args.model_name}_{method_name}_outputs.json", "a")
     for task in tasks:
         print("Testing %s ..." % task)
         acc = 0
         dev_df = pd.read_csv(
-            os.path.join("dataset/question_and_answer_dev", "question_and_answer_" + task + "_dev.csv"), header=None
+            os.path.join("dataset/" + args.task + "_dev", args.task + "_" + task + "_dev.csv"), header=None
         )[: args.num_examples]
         test_df = pd.read_csv(
-            os.path.join("dataset/question_and_answer_test", "question_and_answer_" + task + "_test.csv"), header=None
+            os.path.join("dataset/" + args.task + "_test", args.task + "_" + task + "_test.csv"), header=None
         )
         for i in tqdm(range(test_df.shape[0])):
             try:
@@ -139,7 +139,7 @@ def main(args, tasks=TASKS):
         all_number += test_df.shape[0]
     accs_json["all"] = all_acc / all_number
     json.dump(
-        accs_json, open(f"results/question_and_answer_{args.model_name}_{method_name}_accs.json", "w")
+        accs_json, open(f"results/{args.task}_{args.model_name}_{method_name}_accs.json", "w")
     )
 
 
@@ -152,6 +152,7 @@ if __name__ == "__main__":
         default="gemini-1.0-pro",
         choices=["gpt-3.5-turbo", "gpt-4-1106-preview", "gemini-1.0-pro", "mixtral"],
     )
+    parser.add_argument("--task", type=str, required=True, help="'answer_only', 'question_only', 'question_and_answer'")
     parser.add_argument("--cot", action="store_true")
     parser.add_argument(
         "--num_examples",
