@@ -21,7 +21,8 @@ async def get_response(prompt: str, model: str):
             messages=[
                 {
                     "role": "system",
-                    "content": "In each of the questions that I ask, I will replace some of the words that you might know with a word that is arbitrarily assigned a specific meaning just for this test. The meaning of these arbitrary definition may change with every question. Follow the given examples and answer the question. Please respond to each question with 'Answer: <letter>' where <letter> is the correct choice. Avoid additional explanations.",
+                    # To perform system instruction, add this prompt: In each of the questions that I ask, I will replace some of the words that you might know with a word that is arbitrarily assigned a specific meaning just for this test. The meaning of these arbitrary definition may change with every question. 
+                    "content": "Follow the given examples and answer the question. Please respond to each question with 'Answer: <letter>' where <letter> is the correct choice. Avoid additional explanations.",
                 },
                 {"role": "user", "content": prompt},
             ],
@@ -51,7 +52,8 @@ async def get_response(prompt: str, model: str):
             messages=[
                 {
                     "role": "system",
-                    "content": "In each of the questions that I ask, I will replace some of the words that you might know with a word that is arbitrarily assigned a specific meaning just for this test. The meaning of these arbitrary definition may change with every question. Follow the given examples and answer the question. Please respond to each question with 'Answer: <letter>' where <letter> is the correct choice. Avoid additional explanations.",
+                    # To perform system instruction, add this prompt: In each of the questions that I ask, I will replace some of the words that you might know with a word that is arbitrarily assigned a specific meaning just for this test. The meaning of these arbitrary definition may change with every question. 
+                    "content": "Follow the given examples and answer the question. Please respond to each question with 'Answer: <letter>' where <letter> is the correct choice. Avoid additional explanations.",
                 },
                 {"role": "user", "content": prompt},
             ],
@@ -73,7 +75,7 @@ def main(args, tasks=TASKS):
     all_acc = 0
     all_number = 0
     accs_json = {}
-    method_name = "sys_instruct" # We used 5-shot as baseline experiment
+    method_name = "5-shot" # We used 5-shot as baseline experiment
     outputs_file = open(f"results/question_and_answer_{args.model_name}_{method_name}_outputs.json", "a")
     for task in tasks:
         print("Testing %s ..." % task)
