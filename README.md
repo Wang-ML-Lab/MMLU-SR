@@ -2,7 +2,7 @@
 
 This is the official repository for "Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models".
 - Our MMLU-SR dataset is designed to challenge true comprehension and reasoning abilities of LLMs by symbol replacement.
-- Our evaluations on gpt-3.5-turbo, llama3-8b, and gemini-1.0-pro showed significantly lower performance on MMLU-SR compared to the original MMLU. 
+- Our evaluations on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` showed significantly lower performance on MMLU-SR compared to the original MMLU. 
 
 ![MMLU-SR](images/MMLU-SR2.PNG)
 
@@ -50,23 +50,23 @@ print(f"Number of test examples: {len(test_dataset)}")
 ```
 
 ## Experiment Results
-Our experiments evaluated on gpt-3.5-turbo, gemini-1.0-pro, and llama3-8b are summarized in the table below:
+Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` are summarized in the table below:
 
-| Model                  | Humanities | Social Sciences | STEM  | Other | Average |
-|------------------------|------------|-----------------|-------|-------|---------|
+| Model                  | Humanities | Social Sciences | STEM  | Other | Average | Avg Drop |
+|------------------------|------------|-----------------|-------|-------|---------|----------|
 | **GPT-3.5-turbo**      |            |                 |       |       |         |
 | MMLU (5-shot)          | 0.723      | 0.770           | 0.554 | 0.714 | 0.677   |
-| Question Only (5-shot) | 0.661      | 0.702           | 0.506 | 0.641 | 0.616   |
-| Answer Only (5-shot)   | 0.540      | 0.595           | 0.441 | 0.538 | 0.520   |
-| Q&A (5-shot)           | 0.469      | 0.523           | 0.396 | 0.476 | 0.459   |
+| Question Only (5-shot) | 0.661      | 0.702           | 0.506 | 0.641 | 0.616   |  9.08%   |
+| Answer Only (5-shot)   | 0.540      | 0.595           | 0.441 | 0.538 | 0.520   | 23.27%   |
+| Q&A (5-shot)           | 0.469      | 0.523           | 0.396 | 0.476 | 0.459   | 32.26%   |
 | **Gemini-1.0-pro**     |            |                 |       |       |         |
 | MMLU (5-shot)          | 0.728      | 0.758           | 0.596 | 0.703 | 0.686   |
-| Question Only (5-shot) | 0.687      | 0.744           | 0.539 | 0.658 | 0.645   |
-| Answer Only (5-shot)   | 0.619      | 0.670           | 0.504 | 0.591 | 0.586   |
-| Q&A (5-shot)           | 0.582      | 0.622           | 0.472 | 0.544 | 0.546   |
+| Question Only (5-shot) | 0.687      | 0.744           | 0.539 | 0.658 | 0.645   |  5.86%   |
+| Answer Only (5-shot)   | 0.619      | 0.670           | 0.504 | 0.591 | 0.586   | 14.48%   |
+| Q&A (5-shot)           | 0.582      | 0.622           | 0.472 | 0.544 | 0.546   | 20.85%   |
 | **Llama3-8B**          |            |                 |       |       |         |
 | MMLU (5-shot)          | 0.593      | 0.757           | 0.557 | 0.729 | 0.651   |
-| Question Only (5-shot) | 0.546      | 0.685           | 0.507 | 0.668 | 0.595   |
-| Answer Only (5-shot)   | 0.455      | 0.599           | 0.460 | 0.557 | 0.510   |
-| Q&A (5-shot)           | 0.421      | 0.538           | 0.424 | 0.499 | 0.465   |
+| Question Only (5-shot) | 0.546      | 0.685           | 0.507 | 0.668 | 0.595   |  8.69%   |
+| Answer Only (5-shot)   | 0.455      | 0.599           | 0.460 | 0.557 | 0.510   | 21.28%   |
+| Q&A (5-shot)           | 0.421      | 0.538           | 0.424 | 0.499 | 0.465   | 28.63%   |
 
