@@ -26,7 +26,7 @@ Modify the `launch.sh` script to tailor the experiment to your needs:
 
 - **Batch Size**: Set `--batch_size 2` to specify the number of samples processed at once.
 - **Few-Shot Setting**: Use `--num_fewshot 5` to define the number of examples used for few-shot learning.
-- **Tasks**: Change `--tasks` in `launch.sh` to specify which dataset to run. to Run specific single subject, e.g, `question_only_prehistory`.
+- **Tasks**: Change `--tasks` in `launch.sh` to specify which dataset to run. To run specific single subject, e.g, `question_only_prehistory`. To run the group dataset. e.g, `mmlusr_question_only`.
 - **Model Configuration**: Alter `--model` and `--model_args` to test different models.
 
 
