@@ -39,20 +39,22 @@ def handle_output(args, results, logger):
         return
 
     path = Path(args.output_path)
-    #change output file name to associate task, e.g, change question_and_answer_Meta-Llama-3-8B_5_shot.json to question_only_Meta-Llama-3-8B_5_shot.json
-    if path.is_file() or path.with_name("question_and_answer_Meta-Llama-3-8B_5_shot.json").is_file(): 
-        logger.warning(f"File already exists at {path}. Results will be overwritten.")
+    task_name = args.tasks.replace(',', '_')
 
-    output_dir = path.parent if path.suffix in (".json", ".jsonl") else path
+    output_filename = f"{task_name}_Meta-Llama-3-8B_5_shot.json"
+    file_path = path / output_filename
+
+    if file_path.is_file():
+        logger.warning(f"File already exists at {file_path}. Results will be overwritten.")
+
+    output_dir = file_path.parent
     output_dir.mkdir(parents=True, exist_ok=True)
 
     results_str = json.dumps(results, indent=2, default=_handle_non_serializable)
     if args.show_config:
         logger.info(results_str)
 
-    #change output file name to associate task, e.g, change question_and_answer_Meta-Llama-3-8B_5_shot.json to question_only_Meta-Llama-3-8B_5_shot.json
-    file_path = os.path.join(args.output_path, "question_and_answer_Meta-Llama-3-8B_5_shot.json")
-    with open(file_path , "w", encoding="utf-8") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write(results_str)
 
     if args.log_samples:
@@ -60,9 +62,7 @@ def handle_output(args, results, logger):
         for task_name, _ in results.get("configs", {}).items():
             output_name = re.sub(r"/|=", "__", args.model_args) + "_" + task_name
             sample_file = output_dir.joinpath(f"{output_name}.jsonl")
-            sample_data = json.dumps(
-                samples.get(task_name, {}), indent=2, default=_handle_non_serializable
-            )
+            sample_data = json.dumps(samples.get(task_name, {}), indent=2, default=_handle_non_serializable)
             sample_file.write_text(sample_data, encoding="utf-8")
 
     batch_sizes = ",".join(map(str, results.get("config", {}).get("batch_sizes", [])))
@@ -80,7 +80,7 @@ def load_tasks(args):
         task_manager = tasks.TaskManager(include_path=config_dir)
         return task_manager, [
             "mmlu",
-            "srmo",
+            "mmlusr",
         ]
     return None, args.tasks.split(",") if args.tasks else []
 

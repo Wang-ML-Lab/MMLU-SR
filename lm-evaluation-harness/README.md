@@ -26,15 +26,14 @@ Modify the `launch.sh` script to tailor the experiment to your needs:
 
 - **Batch Size**: Set `--batch_size 2` to specify the number of samples processed at once.
 - **Few-Shot Setting**: Use `--num_fewshot 5` to define the number of examples used for few-shot learning.
-- **Tasks**: Change `--tasks` in `launch.sh` to specify which dataset to run.
+- **Tasks**: Change `--tasks` in `launch.sh` to specify which dataset to run. to Run specific single subject, e.g, `question_only_prehistory`.
 - **Model Configuration**: Alter `--model` and `--model_args` to test different models.
-- **Output file name** modify file path in `eval.py` with your task
+
 
 Find more details in the official [lm-evaluation-harness documentation](https://github.com/EleutherAI/lm-evaluation-harness/tree/main) and [lm-eval new task](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md)
 
 ## Running the Experiment
-
-Before running the shell, always check your task name and output path matches path in `eval.py`. Ensure the `launch.sh` script is executable. If it's not, make it executable with:
+Ensure the `launch.sh` script is executable. If it's not, make it executable with:
 ```bash
 chmod +x launch.sh
 ```
