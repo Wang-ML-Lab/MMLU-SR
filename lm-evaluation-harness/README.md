@@ -30,7 +30,7 @@ Modify the `launch.sh` script to tailor the experiment to your needs:
 - **Model Configuration**: Alter `--model` and `--model_args` to test different models.
 - **Output file name** modify file path in `eval.py` with your task
 
-Find more details in the official [lm-evaluation-harness documentation](https://github.com/EleutherAI/lm-evaluation-harness/tree/main).
+Find more details in the official [lm-evaluation-harness documentation](https://github.com/EleutherAI/lm-evaluation-harness/tree/main) and [lm-eval new task](https://github.com/EleutherAI/lm-evaluation-harness/blob/main/docs/new_task_guide.md)
 
 ## Running the Experiment
 
