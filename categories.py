@@ -120,7 +120,7 @@ def main():
 
     # Print the table (can be improved with a proper table formatting library like tabulate)
     print("Model\tHumanities\tSocial Sciences\tSTEM\tOther\tAverage")
-    model_info = "Gemini-pro (5-shot)"
+    model_info = "GPT-3.5-turbo (5-shot)"
     print(f"{model_info}\t"
           f"{average_scores.get('humanities', 0):.3f}\t"
           f"{average_scores.get('social sciences', 0):.3f}\t"
