@@ -74,7 +74,7 @@ Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` 
 
 ## Citation
 If you use this datasets in your work, please cite it as follows:
-```
+```bib
 @misc{wang2024reasoning,
       title={Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models}, 
       author={Wentian Wang and Paul Kantor and Jacob Feldman and Lazaros Gallos and Hao Wang},
