@@ -72,3 +72,15 @@ Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` 
 | Answer Only (5-shot)   | 0.455      | 0.599           | 0.460 | 0.557 | 0.510   | 21.28%   |
 | Q&A (5-shot)           | 0.421      | 0.538           | 0.424 | 0.499 | 0.465   | 28.63%   |
 
+## Citation
+If you use this datasets in your work, please cite it as follows:
+
+@misc{wang2024reasoning,
+      title={Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models}, 
+      author={Wentian Wang and Paul Kantor and Jacob Feldman and Lazaros Gallos and Hao Wang},
+      year={2024},
+      eprint={2406.15468},
+      archivePrefix={arXiv},
+      primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'}
+}
+
