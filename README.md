@@ -20,7 +20,7 @@ conda activate mmlusr
 Our datasets can be found in `dataset` folder, [Google Drive](https://drive.google.com/file/d/1ckqXmT7L2R0bWRccI60emZINkmFnTs6T/view?usp=drive_link), and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR).
 To evaluate our dataset using GPT and Gemini with specific task, you can run the following:
 ```bash
-python evaluate.py --task question_only
+python evaluate.py --task question_only --model_name "your_model"
 ```
 You can change task to `question_only`, `answer_only`, and `question_and_answer`.
 
