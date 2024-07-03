@@ -10,7 +10,7 @@ This is the official repository for ["Reasoning or Simply Next Token Prediction?
 + [6/2024] Project page set up at [Paper with Code](https://paperswithcode.com/dataset/mmlu-sr), with initial leaderboards for three MMLU-SR variants, [`Question Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr),  [`Answer Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-1), and  [`Question and Answer`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-2). 
 
 ## Environment Setup
-It depends on what LLMs you are testing. To reproduce our experiment where we tested `gpt-3.5-turbo`, `gemini-1.0-pro` and `llama3-8b`. There is a `environment.yml` file as reference. First, you need to install conda in your system. Then you can run:
+It depends on what LLMs you are testing. To reproduce our experiment where we tested `gpt-3.5-turbo`, `gemini-1.0-pro` and `llama3-8b`. There is a `environment.yml` file as reference. First, you need to install conda in your system. Then you can run, assume running under Linux(we already found issues that Mac users will have package installation conflicts):
 ```bash
 conda env create -f environment.yml
 conda activate mmlusr
