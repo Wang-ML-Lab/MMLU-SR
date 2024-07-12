@@ -54,6 +54,10 @@ test_dataset = dataset["test"]
 print(f"Number of training examples: {len(train_dataset)}")
 print(f"Number of test examples: {len(test_dataset)}")
 ```
+For running lm-eval below using huggingface models, you will need to first log in with your huggingface access token:
+```bash
+huggingface-cli login
+```
 ## lm-eval
 ### Installation
 
