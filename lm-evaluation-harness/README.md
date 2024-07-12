@@ -1,6 +1,6 @@
 # Evaluating Llama3 with lm-evaluation-harness
 
-We have utilized the `lm-evaluation-harness`, officially supported by [llama-recipes](https://github.com/meta-llama/llama-recipes/tree/main/recipes/evaluation), to evaluate our Llama3 models. Our modifications are stored in the MMLU-SR branch, which we plan to merge into the main `lm-evaluation-harness` repository for easier access.
+We have utilized the `lm-evaluation-harness`, officially supported by [llama-recipes](https://github.com/meta-llama/llama-recipes/tree/main/recipes/evaluation), to evaluate our Llama3 models. Our MMLU-SR has been merged to lm-eval already, so you can directly follow main page to call lm-eval to run. Here is instruction for local run.
 
 ## Getting Started
 
