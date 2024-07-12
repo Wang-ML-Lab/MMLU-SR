@@ -68,6 +68,8 @@ Run the desired groups as follows, for example, to reproduce experiment results 
 ```bash
 lm_eval --model hf  --model_args pretrained=meta-llama/Meta-Llama-3-8B,parallelize=True  --tasks mmlusr   --batch_size 2  --output_path 'your path'
 ```
+You can change the models simply by change the `model_args`, check `lm_eval -h` for argument help, and more instructions on [lm-eval](https://github.com/EleutherAI/lm-evaluation-harness/tree/main).
+You can also switch to evaluate other datasets or a single task, check below information:
 #### Groups
 - `mmlusr`: MMLU variant where the terminology in the question and answers are modified.
 - `mmlusr_answer_only`: MMLU variant where the terminology in the answers are modified.
