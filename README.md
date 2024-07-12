@@ -54,7 +54,7 @@ test_dataset = dataset["test"]
 print(f"Number of training examples: {len(train_dataset)}")
 print(f"Number of test examples: {len(test_dataset)}")
 ```
-## Lm-eval
+## lm-eval
 ### Installation
 
 Clone and install the `lm-evaluation-harness` as follows:
