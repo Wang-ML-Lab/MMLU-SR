@@ -7,6 +7,7 @@ This is the official repository for ["Reasoning or Simply Next Token Prediction?
 ![MMLU-SR](images/MMLU-SR2.PNG)
 
 ### Update History
++ [7/2024] Our MMLU-SR is merged to [lm-eval-tasks](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/mmlusr)!
 + [6/2024] Project page set up at [Paper with Code](https://paperswithcode.com/dataset/mmlu-sr), with initial leaderboards for three MMLU-SR variants, [`Question Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr),  [`Answer Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-1), and  [`Question and Answer`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-2). 
 
 ## Environment Setup
@@ -53,6 +54,39 @@ test_dataset = dataset["test"]
 print(f"Number of training examples: {len(train_dataset)}")
 print(f"Number of test examples: {len(test_dataset)}")
 ```
+## Lm-eval
+## Getting Started
+
+### Installation
+
+Clone and install the `lm-evaluation-harness` as follows:
+
+```bash
+git clone https://github.com/EleutherAI/lm-evaluation-harness.git
+cd lm-evaluation-harness
+pip install -e .
+```
+Run the desired groups as follows, for example, to reproduce experiment results from paper using LLaMA3 8B with MMLU-SR Question-and-Answer dataset:
+```bash
+lm_eval --model hf  --model_args pretrained=meta-llama/Meta-Llama-3-8B,parallelize=True  --tasks mmlusr   --batch_size 2  --output_path 'your path'
+```
+#### Groups
+- `mmlusr`: MMLU variant where the terminology in the question and answers are modified.
+- `mmlusr_answer_only`: MMLU variant where the terminology in the answers are modified.
+- `mmlusr_question_only`: MMLU variant where the terminology in the question is modified.
+#### Tasks
+
+There are 57 symbol replaced subjects in each group. You can run a single task by:
+
+* `mmlusr_question_only_abstract_algebra`
+
+Or by categories:
+
+* `mmlusr_question_only_stem_tasks `
+
+Or by subset groupts:
+
+* `mmlusr_question_only`
 
 ## Experiment Results
 Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` are summarized in the table below:
