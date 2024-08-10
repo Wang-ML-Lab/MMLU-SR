@@ -7,6 +7,7 @@ This is the official repository for ["Reasoning or Simply Next Token Prediction?
 ![MMLU-SR](images/MMLU-SR2.PNG)
 
 ### Update History
++ [8/2024] Our MMLU-SR is evaluated on `gemini-1.5-pro`, `llama3-8b` and `gpt-4o`, showing lower performance on MMLU-SR compared to the original MMLU. Check our experiment results!
 + [7/2024] Our MMLU-SR is merged to [lm-eval-tasks](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/mmlusr)!
 + [6/2024] Project page set up at [Paper with Code](https://paperswithcode.com/dataset/mmlu-sr), with initial leaderboards for three MMLU-SR variants, [`Question Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr),  [`Answer Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-1), and  [`Question and Answer`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-2). 
 
@@ -21,13 +22,13 @@ conda activate mmlusr
 Our datasets can be found in `dataset` folder, [Google Drive](https://drive.google.com/file/d/1ckqXmT7L2R0bWRccI60emZINkmFnTs6T/view?usp=drive_link), and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR).
 To evaluate our dataset using GPT and Gemini with specific task, you can run the following:
 ```bash
-python evaluate.py --task question_only --model_name "your_model"
+python3 evaluate.py --task question_only --model_name your_model
 ```
 You can change task to `question_only`, `answer_only`, and `question_and_answer`.
 
 Once you have the output json files, you can use `categories.py` to view the grouped results:
 ```bash
-python categories.py 
+python3 categories.py 
 ```
 For Llama3, you need to look into `lm-evaluation-harness` folder and follow the instruction.
 The output of models' evaluation can be downloaded with this [Google Drive link](https://drive.google.com/file/d/1BKBx4LrkvU9WCnTREc1ENuRITT_xByI_/view?usp=sharing).
