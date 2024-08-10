@@ -17,6 +17,9 @@ It depends on what LLMs you are testing. To reproduce our experiment where we te
 conda env create -f environment.yml
 conda activate mmlusr
 ```
+## Human evaluation form
+We created human eval questionnaire which extracts 50 problems from MMLU/MMLU-SR. If you are intersted, please take some time to do it. We really appreciate for it :)
+[human](https://docs.google.com/forms/d/e/1FAIpQLSfriZgxgzipdNFd0r3dVEg8dQ8SDmSjPJgNuT5FxtexA7vy6A/viewform?usp=sf_link)
 
 ## Dataset and Results
 Our datasets can be found in `dataset` folder, [Google Drive](https://drive.google.com/file/d/1ckqXmT7L2R0bWRccI60emZINkmFnTs6T/view?usp=drive_link), and also on [Huggingface](https://huggingface.co/datasets/NiniCat/MMLU-SR).
