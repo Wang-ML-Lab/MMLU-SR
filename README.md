@@ -93,7 +93,7 @@ Or by subset groupts:
 * `mmlusr_question_only`
 
 ## Experiment Results
-Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` are summarized in the table below:
+Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`,  `gemini-1.5-pro`, `llama3-8b` and `llama3-70b` are summarized in the table below:
 
 | Model/Dataset          | Humanities | Social Sciences | STEM  | Other | Average | Avg Drop |
 |------------------------|------------|-----------------|-------|-------|---------|----------|
@@ -107,11 +107,21 @@ Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` 
 | Question Only (5-shot) | 0.687      | 0.744           | 0.539 | 0.658 | 0.645   |  5.86%   |
 | Answer Only (5-shot)   | 0.619      | 0.670           | 0.504 | 0.591 | 0.586   | 14.48%   |
 | Q&A (5-shot)           | 0.582      | 0.622           | 0.472 | 0.544 | 0.546   | 20.85%   |
+| **Gemini-1.5-pro**     |            |                 |       |       |         |
+| MMLU (5-shot)          | 0.849      | 0.881           | 0.802 | 0.815 | 0.832   |  -----   |
+| Question Only (5-shot) | 0.795      | 0.836           | 0.700 | 0.754 | 0.764   |  8.17%   |
+| Answer Only (5-shot)   | 0.741      | 0.816           | 0.747 | 0.739 | 0.758   |  8.89%   |
+| Q&A (5-shot)           | 0.690      | 0.752           | 0.670 | 0.681 | 0.694   | 16.59%   |
 | **Llama3-8B**          |            |                 |       |       |         |
 | MMLU (5-shot)          | 0.593      | 0.757           | 0.557 | 0.729 | 0.651   |  -----   |
 | Question Only (5-shot) | 0.546      | 0.685           | 0.507 | 0.668 | 0.595   |  8.69%   |
 | Answer Only (5-shot)   | 0.455      | 0.599           | 0.460 | 0.557 | 0.510   | 21.28%   |
 | Q&A (5-shot)           | 0.421      | 0.538           | 0.424 | 0.499 | 0.465   | 28.63%   |
+| **Llama3-70B**         |            |                 |       |       |         |
+| MMLU (5-shot)          | 0.681      | 0.868           | 0.697 | 0.814 | 0.765   |  -----   |
+| Question Only (5-shot) | 0.635      | 0.812           | 0.631 | 0.770 | 0.712   |  6.93%   |
+| Answer Only (5-shot)   | 0.539      | 0.683           | 0.565 | 0.622 | 0.602   | 21.31%   |
+| Q&A (5-shot)           | 0.523      | 0.653           | 0.536 | 0.591 | 0.576   | 24.71%   |
 
 ## Citation
 If you use this datasets in your work, please cite it as follows:
