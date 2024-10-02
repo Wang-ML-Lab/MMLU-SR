@@ -8,7 +8,7 @@ This is the official repository for ["Reasoning or Simply Next Token Prediction?
 
 ### Update History
 + [10/2024] Our MMLU-SR is evaluated on `gpt-4o` and shows consistent lower performance.
-+ [9/2024] Our MMLU-SR is accepted by GenBench 2024!
++ [9/2024] Our MMLU-SR is accepted by EMNLP Workshop GenBench 2024!
 + [8/2024] Our MMLU-SR is evaluated on `gemini-1.5-pro`, `llama3-70b` and `gpt-4o-mini`, showing lower performance on MMLU-SR compared to the original MMLU. Check our [new experiment results](https://drive.google.com/file/d/1fsfEmBSxJIXcwQczFAsKsb0OqIKJKrrP/view)!
 + [7/2024] Our MMLU-SR is merged to [lm-eval-tasks](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/mmlusr)!
 + [6/2024] Project page set up at [Paper with Code](https://paperswithcode.com/dataset/mmlu-sr), with initial leaderboards for three MMLU-SR variants, [`Question Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr),  [`Answer Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-1), and  [`Question and Answer`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-2). 
