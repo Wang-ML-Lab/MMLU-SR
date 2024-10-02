@@ -7,6 +7,8 @@ This is the official repository for ["Reasoning or Simply Next Token Prediction?
 ![MMLU-SR](images/MMLU-SR2.PNG)
 
 ### Update History
++ [10/2024] Our MMLU-SR is evaluated on `gpt-4o` and shows consistent lower performance. Check our [new experiment results]
++ [9/2024] Our MMLU-SR is accepted by GenBench 2024!
 + [8/2024] Our MMLU-SR is evaluated on `gemini-1.5-pro`, `llama3-70b` and `gpt-4o-mini`, showing lower performance on MMLU-SR compared to the original MMLU. Check our [new experiment results](https://drive.google.com/file/d/1fsfEmBSxJIXcwQczFAsKsb0OqIKJKrrP/view)!
 + [7/2024] Our MMLU-SR is merged to [lm-eval-tasks](https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/mmlusr)!
 + [6/2024] Project page set up at [Paper with Code](https://paperswithcode.com/dataset/mmlu-sr), with initial leaderboards for three MMLU-SR variants, [`Question Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr),  [`Answer Only`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-1), and  [`Question and Answer`](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu-sr-2). 
@@ -111,6 +113,11 @@ Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`,  `gemini-1.5-pro
 | Question Only (5-shot) | 0.744      | 0.792           | 0.621 | 0.724 | 0.710   |  7.91%   |
 | Answer Only (5-shot)   | 0.659      | 0.738           | 0.602 | 0.651 | 0.655   | 15.05%   |
 | Q&A (5-shot)           | 0.588      | 0.666           | 0.531 | 0.585 | 0.585   | 24.12%   |
+| **GPT-4o**             |            |                 |       |       |         |
+| MMLU (5-shot)          | 0.880      | 0.906           | 0.771 | 0.854 | 0.845   |  -----   |
+| Question Only (5-shot) | 0.838      | 0.856           | 0.702 | 0.811 | 0.792   |  6.27%   |
+| Answer Only (5-shot)   | 0.764      | 0.824           | 0.705 | 0.760 | 0.757   | 10.41%   |
+| Q&A (5-shot)           | 0.708      | 0.754           | 0.635 | 0.712 | 0.695   | 17.75%   |
 | **Gemini-1.0-pro**     |            |                 |       |       |         |
 | MMLU (5-shot)          | 0.728      | 0.758           | 0.596 | 0.703 | 0.686   |  -----   |
 | Question Only (5-shot) | 0.687      | 0.744           | 0.539 | 0.658 | 0.645   |  5.86%   |
