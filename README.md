@@ -1,6 +1,6 @@
 # MMLU-SR
 
-This is the official repository for ["Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models"](https://arxiv.org/abs/2406.15468).
+This is the official repository for ["MMLU-SR: A Benchmark for Stress-Testing Reasoning Capability of Large Language Models"](https://arxiv.org/abs/2406.15468).
 - Our MMLU-SR dataset is designed to challenge true comprehension and reasoning abilities of LLMs by symbol replacement.
 - Our evaluations on `gpt-3.5-turbo`, `gemini-1.0-pro`, and `llama3-8b` showed significantly lower performance on MMLU-SR compared to the original MMLU, highlighting the value of our MMLU-SR. 
 
