@@ -142,12 +142,13 @@ Our experiments evaluated on `gpt-3.5-turbo`, `gemini-1.0-pro`,  `gemini-1.5-pro
 ## Citation
 If you use this datasets in your work, please cite it as follows:
 ```bib
-@misc{wang2024reasoning,
-      title={Reasoning or Simply Next Token Prediction? A Benchmark for Stress-Testing Large Language Models}, 
-      author={Wentian Wang and Paul Kantor and Jacob Feldman and Lazaros Gallos and Hao Wang},
+@misc{wang2024mmlusrbenchmarkstresstestingreasoning,
+      title={MMLU-SR: A Benchmark for Stress-Testing Reasoning Capability of Large Language Models}, 
+      author={Wentian Wang and Sarthak Jain and Paul Kantor and Jacob Feldman and Lazaros Gallos and Hao Wang},
       year={2024},
       eprint={2406.15468},
       archivePrefix={arXiv},
-      primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'}
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.15468}, 
 }
 ```
